@@ -1,8 +1,12 @@
+import styles from '../Landing/Landing.module.css'
+
 const Landing = () => {
   return (
     <>
-    <main>
-      <h1>This is the Landing page</h1>
+    <main className={styles.container}>
+      <section id="brand-section">
+        <img src="assets/images/aperture.png" alt="looking through camera aperture"></img>
+      </section>
     </main>
     </>
   )
