@@ -1,11 +1,11 @@
-import { Route, Routes, Link } from 'react-router-dom'
-import './App.css';
+import { Route, Routes } from 'react-router-dom'
+import NavBar from './components/NavBar/NavBar';
 import Landing from './pages/Landing/Landing'
 import Resume from './pages/Resume/Resume'
 import Projects from './pages/Projects/Projects'
 import AboutMe from './pages/AboutMe/AboutMe'
 import Tech from './pages/Tech/Tech'
-
+import './App.css';
 
 function App() {
   return (
@@ -13,14 +13,10 @@ function App() {
       <header className="App-header">
         <p>AMANDA'S PORTFOLIO</p>
         <nav>
-          <Link to='/'>Welcome</Link>
-          <Link to='/resume'>Resume</Link>
-          <Link to='/projects'>Projects</Link>
-          <Link to='/aboutme'>About Me</Link>
-          <Link to='/tech'>Tech</Link>
+          <NavBar />
         </nav>
       </header>
-      <main>
+      <div>
         <Routes>
           <Route path='/' element={<Landing />} />
           <Route path='/resume' element={<Resume />} />
@@ -28,7 +24,7 @@ function App() {
           <Route path='/aboutme' element={<AboutMe />} />
           <Route path='/tech' element={<Tech />} />
         </Routes>
-      </main>
+      </div>
     </div>
   );
 }

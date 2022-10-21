@@ -1,1 +1,9 @@
-<h1>This is the Tech Used page</h1>
+const Tech = () => {
+  return (
+    <>
+      <h1>This is the Tech page</h1>
+    </>
+  )
+}
+
+export default Tech

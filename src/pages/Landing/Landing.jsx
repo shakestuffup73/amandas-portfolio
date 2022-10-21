@@ -1,1 +1,9 @@
-<h1>This is the landing page</h1>
+const Landing = () => {
+  return (
+    <>
+      <h1>This is the Landing page</h1>
+    </>
+  )
+}
+
+export default Landing

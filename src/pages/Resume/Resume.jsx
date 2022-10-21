@@ -1,1 +1,9 @@
-<h1>This is my resume page</h1>
+const Resume = () => {
+  return (
+    <>
+      <h1>This is the Resume page</h1>
+    </>
+  )
+}
+
+export default Resume
