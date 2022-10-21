@@ -11,17 +11,13 @@ import './App.css';
 function App() {
   return (
   <>
+  <main>
     <div className="App">
-      <p>AMANDA'S PORTFOLIO</p>
       <div id="right-nav">
-        <nav>
-          <NavBar />
-        </nav>
+        <NavBar />
       </div>
       <div id="left-nav">
-        <nav>
-          <LeftNav />
-        </nav>
+        <LeftNav />
       </div>
       <div>
         <Routes>
@@ -33,6 +29,7 @@ function App() {
         </Routes>
       </div>
     </div>
+  </main>
   </>
   );
 }
