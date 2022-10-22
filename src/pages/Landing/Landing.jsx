@@ -6,10 +6,11 @@ const Landing = () => {
     <main className={styles.container}>
       <div id="brand-image">
         <img src="assets/images/AmandaRFLogo.png" alt="amanda stern and dog libby in camera preview display"></img>
-        <h1>Software Engineer  ||  Photographer  || Loyal human to my dog</h1>
+        <h1>Software Engineer</h1>
+        <h2>Wilderness Wanderer</h2>
+        <h2>Avid Photographer</h2>
       </div>
       <div className={styles.intro}>
-        <h1>Hey there! I'm Amanda, a Professional Software Engineer, wilderness-wanderer, avid-photographer, and loyal human to my beloved dog, Libby.</h1>
       </div>
     </main>
     </>

@@ -13,8 +13,22 @@ div {
 }
 
 h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.6em;
+  color: whitesmoke;
+}
+
+h2 {
+  font-family: luminance,serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.2em;
+  color: whitesmoke;
+}
+
+h3 {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: .8em;
+  font-size: .6em;
   color: whitesmoke;
 }
 
