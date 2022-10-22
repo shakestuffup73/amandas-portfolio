@@ -21,12 +21,12 @@ main {
 }
 
 #top-nav-div > a {
-  font-family: luminance;
-  font-size: 1.6em;
+  font-family: champagne sorbet;
+  font-size: 1.1em;
   color: whitesmoke;
-  text-shadow: 1px 1px #fc8c1b;
+  text-shadow: 1px 1px #1cc6a1;
   text-decoration: none;
-  height: 4vh;
+  height: 4.2vh;
 }
 
 #top-nav-div > a:visited {
