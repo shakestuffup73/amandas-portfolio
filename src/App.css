@@ -7,7 +7,7 @@
 }
 
 #linkedin-icon, #github-icon, #camera-icon {
-  height: 3vh;
+  height: 6vh;
   margin-left: 10px;
 }
 
@@ -33,10 +33,16 @@
   top: 540px;
 }
 
+
 #icon-div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   min-height: 20vh;
   justify-content: space-evenly;
+}
+
+#icon-div > img {
+  height: 10vh;
+  width: 50px;
 }
