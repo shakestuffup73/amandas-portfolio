@@ -13,7 +13,7 @@ function App() {
   <>
   <main>
     <div className="App">
-      <div id="top-nav">
+      <div id="top-nav-div">
         <NavBar />
       </div>
       <div id="bottom-nav">

@@ -1,34 +1,51 @@
-.App {
-  text-align: center;
+main {
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
 
 #linkedin-icon, #github-icon, #camera-icon {
   height: 3.5vh;
   margin-left: 10px;
 }
 
-#top-nav {
+#top-nav-div {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: center;
   width: 100%;
   position: fixed;
-  left: 0;
+  right: 0;
+  padding: 20px;
   z-index: 1;
   top: 0;
+}
+
+#top-nav-div > a {
+  font-family: luminance;
+  font-size: 1.6em;
+  color: whitesmoke;
+  text-shadow: 1px 1px #fc8c1b;
+  text-decoration: none;
+  height: 4vh;
+}
+
+#top-nav-div > a:visited {
+  color: whitesmoke;
+}
+
+#top-nav-div > a:hover {
+  color: #a84444;
+}
+
+#top-nav-div > a:active {
+  color: #a84444;
 }
 
 #bottom-nav {
   width: 15%;
   position: fixed;
   left: 0;
-  top: 540px;
+  top: 640px;
 }
 
 
