@@ -6,7 +6,7 @@ main {
   height: 100vh;
 }
 
-header {
+/* header {
   display: flex;
   flex-direction: row;
   grid-area: header;
@@ -15,7 +15,7 @@ header {
     grid-row-end: header;
     grid-column-end: header;
   justify-content: space-between;
-}
+} */
 
 
 div {
@@ -46,7 +46,8 @@ h3 {
 }
 
 div > img {
-  width: 100%;
+  width: 90%;
+  max-width: 1000px;
   left: 0;
 }
 
@@ -59,7 +60,7 @@ div > img {
   height: 65vh;
 }
 
-#layout {
+/* #layout {
   display: grid;
   grid-template-areas: 
   "header header header"
@@ -69,4 +70,4 @@ div > img {
   grid-template-rows: 60px 1fr 30px;
   min-height: 100vh;
   padding: 10px;
-}
+} */

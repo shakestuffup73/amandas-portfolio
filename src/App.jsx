@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar';
-import LeftNav from './components/LeftNav/LeftNav';
+import BottomNav from './components/BottomNav/BottomNav';
 import Landing from './pages/Landing/Landing'
 import Resume from './pages/Resume/Resume'
 import Projects from './pages/Projects/Projects'
@@ -13,11 +13,11 @@ function App() {
   <>
   <main>
     <div className="App">
-      <div id="right-nav">
+      <div id="top-nav">
         <NavBar />
       </div>
-      <div id="left-nav">
-        <LeftNav />
+      <div id="bottom-nav">
+        <BottomNav />
       </div>
       <div>
         <Routes>
