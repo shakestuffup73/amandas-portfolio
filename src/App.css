@@ -26,11 +26,11 @@
 #left-nav {
   display: flex;
   flex-direction: column;
-  width: 25%;
-  align-items: center;
+  justify-content: space-between;
+  width: 12%;
   position: fixed;
-  z-index: 1;
   left: 0;
+  top: 540px;
 }
 
 #icon-div {
