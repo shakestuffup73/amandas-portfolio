@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-const NavBar = () => {
+const LeftNav = () => {
   return ( 
     <>
     <div id="icon-div">
@@ -18,4 +18,4 @@ const NavBar = () => {
   );
 }
 
-export default NavBar;
+export default LeftNav;

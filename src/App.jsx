@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar';
-import LeftNav from './components/LeftNav/LeftNav'
+import LeftNav from './components/LeftNav/LeftNav';
 import Landing from './pages/Landing/Landing'
 import Resume from './pages/Resume/Resume'
 import Projects from './pages/Projects/Projects'

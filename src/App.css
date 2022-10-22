@@ -7,7 +7,8 @@
 }
 
 #linkedin-icon, #github-icon, #camera-icon {
-  height: 35px;
+  height: 3vh;
+  margin-left: 10px;
 }
 
 #right-nav {
@@ -25,12 +26,11 @@
 #left-nav {
   display: flex;
   flex-direction: column;
-  width: 15%;
-  align-items: flex-start;
-  margin-left: 0;
+  width: 25%;
+  align-items: center;
   position: fixed;
-  left: 0;
   z-index: 1;
+  left: 0;
 }
 
 #icon-div {

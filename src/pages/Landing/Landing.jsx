@@ -4,9 +4,13 @@ const Landing = () => {
   return (
     <>
     <main className={styles.container}>
-      <section id="brand-section">
-        <img src="assets/images/aperture.png" alt="looking through camera aperture"></img>
-      </section>
+      <div id="brand-image">
+        <img src="assets/images/AmandaRFLogo.png" alt="amanda stern and dog libby in camera preview display"></img>
+        <h1>Software Engineer  ||  Photographer  || Loyal human to my dog</h1>
+      </div>
+      <div>
+        <h1>Hey there! I'm Amanda, a professional Software Engineer, outdoor adventurer and non-commital photographer.</h1>
+      </div>
     </main>
     </>
   )

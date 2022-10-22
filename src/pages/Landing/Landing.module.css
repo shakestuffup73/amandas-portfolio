@@ -5,22 +5,28 @@ main {
   justify-content: center;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-direction: column;
-}
-
-#brand-section {
+div {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-img {
-  width: 100%;
-  margin-top: 5%;
+h1 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2em;
+  color: whitesmoke;
 }
+
+div > img {
+  width: 50%;
+  left: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+}
+
