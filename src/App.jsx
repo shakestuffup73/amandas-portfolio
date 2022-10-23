@@ -5,7 +5,7 @@ import Landing from './pages/Landing/Landing'
 import Resume2 from './pages/Resume/Resume2'
 import Projects from './pages/Projects/Projects'
 import AboutMe from './pages/AboutMe/AboutMe'
-import Tech from './pages/Tech/Tech'
+import Contact from './pages/Contact/Contact'
 import './App.css';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <Route path='/aboutme' element={<AboutMe />} />
         <Route path='/resume' element={<Resume2 />} />
         <Route path='/projects' element={<Projects />} />
-        <Route path='/tech' element={<Tech />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
     </div>
   </main>
