@@ -9,11 +9,11 @@ const Landing = () => {
           <img src="assets/images/AmandaRFLogo.png" alt="amanda stern name through camera aperture"></img>
         </div>
       </div>
-      <div id="title-div" className={styles}>
+      {/* <div id="title-div" className={styles}>
         <h1>Software Engineer</h1>
         <h1>Photographer</h1>
         <h1>Wilderness-Wanderer</h1>
-      </div>
+      </div> */}
     </body>
     </>
   )
