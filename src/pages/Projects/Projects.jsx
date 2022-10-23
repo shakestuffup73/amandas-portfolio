@@ -13,7 +13,6 @@ const Projects = () => {
         <div className={styles.two}>Two</div>
         <div className={styles.three}>Three</div>
         <div className={styles.four}>Four</div>
-        <div className={styles.five}>Five</div>
       </div>
     </div>
     </>

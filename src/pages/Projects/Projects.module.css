@@ -14,7 +14,7 @@
 
 .gridContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   width: 95%;
   margin-top: 220px;
   padding: 6px;
