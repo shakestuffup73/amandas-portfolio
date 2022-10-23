@@ -6,7 +6,7 @@ const Projects = () => {
     <>
     <div className={styles.pageLayout}>
       <div className={styles.titleDiv}>
-        <img src="assets/images/AmandaDevLogo.png" alt="aperture with dev projects words"></img>
+        <img src="assets/images/AmandaDevProjLogo.png" alt="aperture with dev projects words"></img>
       </div>
       <div className={styles.gridContainer}>
         <div className={styles.one}>One</div>

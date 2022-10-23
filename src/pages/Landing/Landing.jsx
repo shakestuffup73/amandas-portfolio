@@ -6,7 +6,7 @@ const Landing = () => {
     <body className={styles.container}>
       <div id="layout">
         <div id="brand-image">
-          <img src="assets/images/AmandaRFLogo.png" alt="amanda stern name through camera aperture"></img>
+          <img src="assets/images/AmandaRFLogo6.png" alt="amanda stern name through camera aperture"></img>
         </div>
       </div>
       {/* <div id="title-div" className={styles}>

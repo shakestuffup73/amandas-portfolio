@@ -9,6 +9,7 @@
   position: fixed;
   left: 0;
   margin-top: -500px;
+  max-width: 300px;
 }
 
 .gridContainer {

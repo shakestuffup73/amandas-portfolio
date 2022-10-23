@@ -5,10 +5,11 @@
 }
 
 .titleDiv {
-  width: 65%;
+  /* width: 65%; */
   position: fixed;
   left: 0;
   margin-top: -625px;
+  max-width: 300px;
 }
 
 .gridContainer {
