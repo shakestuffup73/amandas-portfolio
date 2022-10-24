@@ -13,7 +13,7 @@ const AboutMe = () => {
           <h1>Hi, I'm Amanda.</h1>
           <img src='assets/images/AmandaLibby.jpg' alt='amanda with her labrador, libby'></img>
           <div className={styles.myTagLine}>
-            <h2>Software Engineer <br /> Photographer <br /> Wilderness Wanderer <br /> Loyal Human Beloved Lab, Libby </h2>
+            <h3>Software Engineer <br /> Photographer <br /> Wilderness Wanderer <br /> Loyal Human to my Beloved Lab, Libby </h3>
           </div>
           <h2>
           As a Professional Software Engineer, I'm passionate about creating applications and products to meet a variety of business and user needs. I began my professional career working project management for software development programs in the Air Force, and managing SQL databases as a Park Ranger in the Bureau of Land Management. From these experiences I was inspired to pursue Software Development full-time and made the career-switch by attending an immersive Software Engineering bootcamp through General Assembly.  

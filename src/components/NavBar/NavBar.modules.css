@@ -1,0 +1,30 @@
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  color: #a84444;
+}
+
+.menuNav {
+  list-style: none;
+  position: fixed;
+  right: 0;
+  background: darkcyan;
+  height: 25vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 100px;
+}
+
+.menuNav.showMenu {
+  width: 8%;
+}
+
+a {
+  display: block;
+  padding: 15%;
+  text-decoration: none;
+  color: #3fffd2;
+  font-weight: bold;
+}
