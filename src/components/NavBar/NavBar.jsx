@@ -15,7 +15,7 @@ const NavBar = () => {
   return ( 
     <>
       <nav className={styles.navBar}>
-        <button onClick={handleToggle}><img src="assets/images/Star.png" height="25px" /></button>
+        <img src="assets/images/Star.png" height="25px" onClick={handleToggle} />
         <ul className={`menuNav ${navbarOpen ? "showMenu" : ""}`}>
           <li>
             <Link to='/aboutme' onClick={() => closeMenu()}>About Me</Link>
