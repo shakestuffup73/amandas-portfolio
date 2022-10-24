@@ -3,7 +3,9 @@
 }
 
 .navBar button {
-  color: #a84444;
+  position: fixed;
+  color: none;
+  background-color: #a84444;
 }
 
 .menuNav {
@@ -11,18 +13,20 @@
   position: fixed;
   right: 0;
   background: darkcyan;
-  height: 25vh;
+  height: 0;
   width: 0;
   overflow: hidden;
   max-width: 100px;
 }
 
 .menuNav.showMenu {
-  width: 8%;
+  height: 25vh;
+  width: 15vh;
 }
 
 a {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 15%;
   text-decoration: none;
   color: #3fffd2;
