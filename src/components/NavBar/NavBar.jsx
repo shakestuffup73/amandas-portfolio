@@ -15,7 +15,7 @@ const NavBar = () => {
   return ( 
     <>
       <nav className={styles.navBar}>
-        <img src="assets/images/Star.png" height="25px" onClick={handleToggle} />
+        <img src="assets/images/Star.png" height="25px" alt="small white star" onClick={handleToggle} />
         <ul className={`menuNav ${navbarOpen ? "showMenu" : ""}`}>
           <li>
             <Link to='/aboutme' onClick={() => closeMenu()}>About Me</Link>
@@ -30,7 +30,7 @@ const NavBar = () => {
             <Link to='/contact' onClick={() => closeMenu()}>Contact</Link>
           </li>
           <li>
-            <Link to='/' onClick={() => closeMenu()}><img src="assets/images/Star.png" alt="star links to homepage" height="15px"></img ></Link>
+            <Link to='/' onClick={() => closeMenu()}><img src="assets/images/Star.png" alt="star links to homepage" height="15px" width="15px"></img ></Link>
           </li>
         </ul>
       </nav>
