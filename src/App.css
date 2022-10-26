@@ -12,7 +12,8 @@ main {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  width: 100%;
+  margin-right: 20px;
+  margin-top: 20px;
   position: fixed;
   right: 0;
   padding: 20px;
@@ -52,7 +53,7 @@ main {
   width: 10%;
   position: fixed;
   left: 0;
-  top: 640px;
+  top: 73%;
 }
 
 #icon-div {

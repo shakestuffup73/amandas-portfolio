@@ -5,7 +5,6 @@
 .navBar button {
   position: fixed;
   color: none;
-  background-color: #a84444;
 }
 
 .menuNav {
@@ -21,13 +20,26 @@
 
 .menuNav.showMenu {
   height: 25vh;
-  width: 6vh;
+  width: 7vh;
+  margin-top: 0;
+  margin-right: 9px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 4px solid #a84444;
 }
 
 a {
   display: flex;
   flex-direction: column;
-  padding: 15%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 35px;
+  padding: 12%;
   text-decoration: none;
   color: #3fffd2;
   font-weight: bold;

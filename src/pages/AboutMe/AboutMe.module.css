@@ -3,16 +3,19 @@ h3 {
 }
 
 .pageLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 84%;
   margin-left: 40px;
   margin-right: 10px;
 }
 
 .titleDiv {
-  /* width: 65%; */
+  width: 73%;
   position: fixed;
   left: 0;
-  margin-top: -1980px;
+  margin-top: 200px;
   max-width: 300px;
 }
 
@@ -20,9 +23,9 @@ h3 {
   display: grid;
   grid-template-columns: 1fr;
   width: 80%;
-  margin-top: 225px;
+  margin-top: 2200px;
   margin-bottom: 100px;
-  position: relative;
+  position: fixed;
   padding: 6px;
   background-color: whitesmoke;
   border: 4px solid #1cc6a1;
