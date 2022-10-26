@@ -16,23 +16,13 @@ const NavBar = () => {
     <>
       <nav className={styles.navBar}>
         <img src="assets/images/Star.png" height="25px" alt="small white star" onClick={handleToggle} />
-        <ul className={`menuNav ${navbarOpen ? "showMenu" : ""}`}>
-          <li>
+        <div className={`menuNav ${navbarOpen ? "showMenu" : ""}`}>
             <Link to='/aboutme' onClick={() => closeMenu()}>About Me</Link>
-          </li>
-          <li>
             <Link to='/projects' onClick={() => closeMenu()}>Projects</Link>
-          </li>
-          <li>
             <Link to='/resume' onClick={() => closeMenu()}>Resume</Link>
-          </li>
-          <li>
             <Link to='/contact' onClick={() => closeMenu()}>Contact</Link>
-          </li>
-          <li>
             <Link to='/' onClick={() => closeMenu()}><img src="assets/images/Star.png" alt="star links to homepage" height="15px" width="15px"></img ></Link>
-          </li>
-        </ul>
+        </div>
       </nav>
     </>
   );

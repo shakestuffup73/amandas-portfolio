@@ -7,44 +7,6 @@ main {
   margin-left: 10px;
 }
 
-#top-nav-div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  margin-right: 20px;
-  margin-top: 20px;
-  position: fixed;
-  right: 0;
-  padding: 20px;
-  z-index: 1;
-  top: 0;
-}
-
-#top-nav-div > a {
-  font-family: dapifer,serif;
-  font-weight: 500;
-  font-style: italic;
-  font-size: 1.1em;
-  letter-spacing: .2ch;
-  color: whitesmoke;
-  text-shadow: 1px 1px #a84444;
-  text-decoration: none;
-  height: 4.2vh;
-}
-
-#top-nav-div > a:visited {
-  color: whitesmoke;
-}
-
-#top-nav-div > a:hover {
-  color: #fcac8c;
-}
-
-#top-nav-div > a:active {
-  color: #a84444;
-}
-
 #brand-image {
   margin-top: 100px;
 }

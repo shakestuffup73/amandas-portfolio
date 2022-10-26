@@ -20,27 +20,41 @@
 
 .menuNav.showMenu {
   height: 25vh;
-  width: 7vh;
+  width: 12vh;
   margin-top: 0;
-  margin-right: 9px;
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-right: 30px;
+  text-align: justify;
   border: 4px solid #a84444;
+  font-family: luminance, serif;
+  font-size: 1.1em;
+}
+
+.menuNav.showMenu > img {
+  width: 35px;
 }
 
 a {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-right: 35px;
   padding: 12%;
   text-decoration: none;
-  color: #3fffd2;
+  color: whitesmoke;
+  text-shadow: 2px 2px #181819;
+  color: whitesmoke;
   font-weight: bold;
 }
+
+#top-nav-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 8px;
+  margin-top: 8px;
+  position: fixed;
+  right: 0;
+  padding: 20px;
+  z-index: 1;
+  top: 0;
+}
+
