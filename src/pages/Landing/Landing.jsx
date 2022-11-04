@@ -1,4 +1,5 @@
 import styles from '../Landing/Landing.module.css'
+import { AmandaAboutMeLogo } from '../../assets/images/exports'
 
 const Landing = () => {
   return (
@@ -6,14 +7,9 @@ const Landing = () => {
     <body className={styles.container}>
       <div id="layout">
         <div id="brand-image">
-          <img src="assets/images/AmandaRFLogo11.png" alt="amanda stern name through camera aperture"></img>
+          <img src={AmandaAboutMeLogo} alt="amanda stern name through camera aperture" />
         </div>
       </div>
-      {/* <div id="title-div" className={styles}>
-        <h1>Software Engineer</h1>
-        <h1>Photographer</h1>
-        <h1>Wilderness-Wanderer</h1>
-      </div> */}
     </body>
     </>
   )

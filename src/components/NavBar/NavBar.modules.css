@@ -11,7 +11,7 @@
   list-style: none;
   position: fixed;
   right: 0;
-  background: darkcyan;
+  background: #f2efee;
   height: 0;
   width: 0;
   overflow: hidden;
@@ -24,7 +24,7 @@
   margin-top: 0;
   margin-right: 30px;
   text-align: justify;
-  border: 4px solid #a84444;
+  border: 4px solid darkcyan;
   font-family: luminance, serif;
   font-size: 1.1em;
 }
@@ -38,9 +38,7 @@ a {
   flex-direction: column;
   padding: 12%;
   text-decoration: none;
-  color: whitesmoke;
-  text-shadow: 2px 2px #181819;
-  color: whitesmoke;
+  color: black;
   font-weight: bold;
 }
 

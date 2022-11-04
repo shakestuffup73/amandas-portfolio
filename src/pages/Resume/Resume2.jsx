@@ -30,12 +30,12 @@ const Resume2 = () => {
     <>
     <div className={styles.pageLayout}>
       <div className={styles.titleDiv}>
-        <img src="assets/images/AmandaResumeLogo.png" alt="aperture with dev projects words"></img>
+        <img src="src/assets/images/AmandaResumeLogo.png" alt="aperture with dev projects words"></img>
       </div>
       <div className={styles.gridContainer}>
         <div className={styles.one}>
           <Document 
-            file="assets/pdf/AmandaSternResume.pdf"
+            file="src/assets/pdf/AmandaSternResume.pdf"
             onLoadSuccess={onDocumentLoadSuccess}>
               <Page pageNumber={pageNumber} />
           </Document>
