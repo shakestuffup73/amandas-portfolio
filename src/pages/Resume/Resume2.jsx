@@ -27,8 +27,7 @@ const Resume2 = () => {
   }
 
   return (
-    <>
-    <div className={styles.pageLayout}>
+    <main className={styles.pageLayout}>
       <div className={styles.titleDiv}>
         <img src="src/assets/images/AmandaResumeLogo.png" alt="aperture with dev projects words"></img>
       </div>
@@ -48,9 +47,8 @@ const Resume2 = () => {
               <button onClick={changePageNext}>Next Page</button>
           }
         </div>
-    </div>
-    </div>
-    </>
+      </div>
+    </main>
   )
 }
 

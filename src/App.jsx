@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar';
-import BottomNav from './components/LeftNav/LeftNav';
+import LeftNav from './components/LeftNav/LeftNav';
 import Landing from './pages/Landing/Landing'
 import Resume2 from './pages/Resume/Resume2'
 import Projects from './pages/Projects/Projects'
@@ -10,14 +10,10 @@ import './App.css';
 
 function App() {
   return (
-  <>
-  <main>
     <div className="App">
-      <div id="top-nav-div">
-        <NavBar />
-      </div>
+      <NavBar id="top-nav-div"/>
       <div id="bottom-nav">
-        <BottomNav />
+        <LeftNav />
       </div>
       <Routes>
         <Route path='/' element={<Landing />} />
@@ -27,8 +23,6 @@ function App() {
         <Route path='/contact' element={<Contact />} />
       </Routes>
     </div>
-  </main>
-  </>
   );
 }
 

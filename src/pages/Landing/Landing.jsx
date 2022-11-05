@@ -3,7 +3,6 @@ import { amandaRFLogo_icon } from '../../assets/images/exports'
 
 const Landing = () => {
   return (
-    <>
     <body className={styles.container}>
       <div id="layout">
         <div id="brand-image">
@@ -11,7 +10,6 @@ const Landing = () => {
         </div>
       </div>
     </body>
-    </>
   )
 }
 
