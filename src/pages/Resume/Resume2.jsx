@@ -1,7 +1,7 @@
 import styles from '../Resume/Resume2.module.css'
 import { useState } from 'react'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
-
+import { amandaResume } from '../../assets/pdf/exports.js'
 
 
 const Resume2 = () => {
@@ -34,7 +34,7 @@ const Resume2 = () => {
       <div className={styles.gridContainer}>
         <div className={styles.one}>
           <Document 
-            file="src/assets/pdf/AmandaSternResume.pdf"
+            file={amandaResume.src}
             onLoadSuccess={onDocumentLoadSuccess}>
               <Page pageNumber={pageNumber} />
           </Document>
