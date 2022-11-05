@@ -12,17 +12,42 @@ import Self1 from './Self1.jpg'
 import Self7 from './Self7.jpg'
 import Star from './Star.png'
 
+const aboutMeLogo = { 
+  src: AmandaAboutMeLogo,
+  altText: 'about me in aperture'
+}
+
+const github_icon = {
+  src: github_white,
+  altText: 'white icon for github'
+}
+
+const linkedin_icon = {
+  src: linkedin_cyan,
+  altText: 'cyan icon for linkedin'
+}
+
+const camera_icon = {
+  src: camera,
+  altText: 'red camera icon for photography website'
+}
+
+const amandaRFLogo_icon = {
+  src: AmandaRFLogo,
+  altText: 'amanda name through camera aperture with RF quote'
+}
+
 export {
-  AmandaAboutMeLogo,
+  aboutMeLogo,
   AmandaDevProjLogo,
   AmandaLibby,
   AmandaProjectsLogo,
   AmandaResumeLogo,
-  AmandaRFLogo,
+  amandaRFLogo_icon,
   aperture,
-  camera,
-  github_white,
-  linkedin_cyan,
+  camera_icon,
+  github_icon,
+  linkedin_icon,
   Self1,
   Self7,
   Star,
