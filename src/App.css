@@ -12,6 +12,10 @@ a {
   font-weight: bold;
 }
 
+a:hover {
+  color: #a84444;
+}
+
 .menuNav {
   display: none;
 }
@@ -26,7 +30,7 @@ a {
   list-style: none;
   display: flex;
   flex-direction: row;
-  background: black;
+  background: #181819;
   border: 2px solid darkcyan;
   font-family: luminance, serif;
   font-size: 1.1em;
