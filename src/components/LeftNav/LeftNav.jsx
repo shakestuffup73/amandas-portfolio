@@ -44,7 +44,7 @@ const LeftNav = () => {
   return (
     <>
       <header>
-        <nav className={`menuNav ${navbarOpen ? "showMenu" : ""}`}>
+        <nav className={`menuNav ${navbarOpen ? "" : "showMenu"}`}>
           <Link to='/projects' onClick={() => closeMenu()}>Projects</Link>
           <Link to='/contact' onClick={() => closeMenu()}>Contact</Link>
           <Link to='/' onClick={() => closeMenu()}><img src={star_icon.src} alt={star_icon.alt} height="15px" width="15px" /></Link>
