@@ -5,15 +5,16 @@ import Resume from '../Resume/Resume2'
 
 const Landing = () => {
   return (
-    <body className={styles.container}>
-      <div id="layout">
+    <div className={styles.container}>
         <div id="brand-image">
           <img src={ amandaRFLogo_icon.src } alt={ amandaRFLogo_icon.alt } />
         </div>
           <AboutMe />
+        <div className={styles.techDiv}>
+          <button>Download My Resume Here</button>
+        </div>
           <Resume />
-      </div>
-    </body>
+    </div>
   )
 }
 

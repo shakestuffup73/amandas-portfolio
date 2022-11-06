@@ -39,7 +39,28 @@ div > img {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 80%;
+  width: 90%;
+  margin-left: 40px;
+}
+
+.techDiv {
+  width: 100%;
+}
+
+.techDiv > button {
+  width: 50%;
+  margin: 20px;
+  border-radius: 20px;
+  width: 40%;
+  height: 35px;
+  background-color: darkcyan;
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1em;
+}
+
+.techDiv > button:hover {
+  border: 3px solid #a84444;
 }
 
 #title-div > h1 {
