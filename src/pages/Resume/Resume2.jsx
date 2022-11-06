@@ -39,7 +39,7 @@ const Resume2 = () => {
                 width={530}
               />
           </Document>
-            <h1> Page {pageNumber} of {numPages} </h1>
+            <h2> Page {pageNumber} of {numPages} </h2>
           { pageNumber > 1 && 
             <button onClick={changePageBack} className={styles.resumeBtn}>Previous Page</button>
           }

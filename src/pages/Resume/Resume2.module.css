@@ -27,12 +27,15 @@
 }
 
 .resumeBtn {
-  border: 4px solid black;
-  border-radius: 15%;
+  border-radius: 20px;
   width: 25%;
   height: 35px;
-  background-color: #a84444;
+  background-color: darkcyan;
   color: whitesmoke;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1em;
+}
+
+.resumeBtn:hover {
+  border: 3px solid #a84444;
 }
