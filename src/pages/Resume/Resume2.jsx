@@ -36,7 +36,7 @@ const Resume2 = () => {
             >
               <Page 
                 pageNumber={pageNumber}
-                width={550}
+                width={530}
               />
           </Document>
             <h1> Page {pageNumber} of {numPages} </h1>
