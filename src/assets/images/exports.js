@@ -37,10 +37,20 @@ const amandaRFLogo_icon = {
   altText: 'amanda name through camera aperture with RF quote'
 }
 
+const amandaLibby_desert = {
+  src: AmandaLibby,
+  altText: 'Amanda and Libby in front of a canyon wall'
+}
+
+const star_icon = {
+  src: Star,
+  altText: 'White star icon links to landing page'
+}
+
 export {
   aboutMeLogo,
   AmandaDevProjLogo,
-  AmandaLibby,
+  amandaLibby_desert,
   AmandaProjectsLogo,
   AmandaResumeLogo,
   amandaRFLogo_icon,
@@ -50,5 +60,5 @@ export {
   linkedin_icon,
   Self1,
   Self7,
-  Star,
+  star_icon,
 }

@@ -11,9 +11,6 @@ const Projects = () => {
   return (
     <>
       <div className={styles.pageLayout}>
-      <div className={styles.titleDiv}>
-        <img src="assets/images/AmandaProjectsLogo.png" alt="aperture with dev projects words"></img>
-      </div>
         <div className={styles.gridContainer}>
           {projects?.map(project => 
             <div className={styles.one}>

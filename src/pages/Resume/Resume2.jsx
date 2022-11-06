@@ -27,28 +27,28 @@ const Resume2 = () => {
   }
 
   return (
-    <main className={styles.pageLayout}>
-      <div className={styles.titleDiv}>
-        <img src="src/assets/images/AmandaResumeLogo.png" alt="aperture with dev projects words"></img>
-      </div>
+    <div className={styles.pageLayout}>
       <div className={styles.gridContainer}>
         <div className={styles.one}>
           <Document 
             file={amandaResume.src}
-            onLoadSuccess={onDocumentLoadSuccess}>
-              <Page pageNumber={pageNumber} />
+            onLoadSuccess={onDocumentLoadSuccess}
+            >
+              <Page 
+                pageNumber={pageNumber}
+              />
           </Document>
-            <p> Page {pageNumber} of {numPages} </p>
+            <h1> Page {pageNumber} of {numPages} </h1>
           { pageNumber > 1 && 
-            <button onClick={changePageBack}>Previous Page</button>
+            <button onClick={changePageBack} className={styles.resumeBtn}>Previous Page</button>
           }
           {
             pageNumber < numPages && 
-              <button onClick={changePageNext}>Next Page</button>
+              <button onClick={changePageNext} className={styles.resumeBtn}>Next Page</button>
           }
         </div>
       </div>
-    </main>
+    </div>
   )
 }
 

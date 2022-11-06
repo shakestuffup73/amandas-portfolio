@@ -6,7 +6,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 84%;
+  width: 90%;
   margin-left: 40px;
   margin-right: 10px;
 }
@@ -25,20 +25,19 @@ h3 {
 
 .gridContainer {
   display: grid;
-  z-index: 0;
   grid-template-columns: 1fr;
   width: 80%;
   margin-top: 190px;
   margin-bottom: 100px;
   padding: 6px;
   background-color: #181819;
-  border: 4px solid whitesmoke;
+  border: 4px solid darkcyan;
 }
 
 .one {
   text-align: justify;
   padding: 10px;
-  background-color: #a84444;
+  background-color: whitesmoke;
   margin: 6px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
@@ -49,4 +48,5 @@ h3 {
 
 .myTagLine {
   text-align: center;
+  color: #a84444;
 }

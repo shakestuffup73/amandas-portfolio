@@ -2,26 +2,62 @@ main {
   width: 95%;
 }
 
+header {
+  width: 100%;
+  height: 50px;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.menuNav {
+  display: none;
+}
+
+.menuNav.showMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background: #f2efee;
+  border: 4px solid darkcyan;
+  font-family: luminance, serif;
+  font-size: 1.1em;
+}
+
+.menuNav.showMenu > img {
+  width: 35px;
+}
+
 #linkedin-icon, #github-icon, #camera-icon {
   height: 3.5vh;
   margin-left: 10px;
 }
 
 #brand-image {
-  margin-top: 100px;
-}
-
-#bottom-nav {
-  width: 10%;
-  position: fixed;
-  left: 0;
-  top: 73%;
+  margin-top: 40px;
 }
 
 #icon-div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  min-height: 20vh;
+  min-height: 40vh;
   justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 60px;
+  position: fixed;
+  left: 0;
+  top: 1%;
 }
