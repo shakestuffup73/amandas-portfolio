@@ -49,9 +49,11 @@ const LeftNav = () => {
           <Link to='/contact' onClick={() => closeMenu()}>Contact</Link>
           <Link to='/' onClick={() => closeMenu()}><img src={star_icon.src} alt={star_icon.alt} height="15px" width="15px" /></Link>
         </nav>
+        {/* <div>
+          <h1>Explore <img src={star_icon.src} alt={star_icon.alt} style={{ width: 15 }}/></h1> 
+        </div> */}
       </header>
       <div id="icon-div">
-        <h1>Explore</h1>
         <Lottie
         loop
         animationData={arrow}

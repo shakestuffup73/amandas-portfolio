@@ -10,12 +10,8 @@ const Landing = () => {
         <div id="brand-image">
           <img src={ amandaRFLogo_icon.src } alt={ amandaRFLogo_icon.alt } />
         </div>
-        <div className={styles.rightDiv}>
           <AboutMe />
-        </div>
-        <div className={styles.leftDiv}>
           <Resume />
-        </div>
       </div>
     </body>
   )

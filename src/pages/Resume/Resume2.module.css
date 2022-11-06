@@ -2,16 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  margin-left: 40px;
-  margin-right: 10px;
-}
-
-.titleDiv {
-  position: fixed;
-  left: 0;
-  margin-top: -625px;
-  max-width: 300px;
+  /* margin-left: 40px;
+  margin-right: 10px; */
 }
 
 .gridContainer {
@@ -25,6 +17,7 @@
 }
 
 .one {
+  width: fit-content;
   display: flex;
   text-align: justify;
   padding: 10px;
@@ -37,9 +30,9 @@
   border: 4px solid black;
   border-radius: 15%;
   width: 25%;
-  height: 45px;
+  height: 35px;
   background-color: #a84444;
   color: whitesmoke;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1.3em;
+  font-size: 1em;
 }
