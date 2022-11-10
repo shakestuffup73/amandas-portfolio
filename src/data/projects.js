@@ -17,7 +17,7 @@ const projects = [
     deploymentLink: "https://amandalorian.netlify.app/",
   },
   {
-    title: "New England Rock and Ice",
+    title: "Rock and Ice",
     description: "A community forum for rock and ice climbers to share climbs, comment on climbs, share their skills, and add climbing partners to their profiles.",
     image: rock_screenshot,
     respositoryLink: "https://github.com/shakestuffup73/appalachian-mtns/blob/main/README.md",
