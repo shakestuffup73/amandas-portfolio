@@ -1,3 +1,15 @@
+// DEVELOPMENT CREDITS:
+- Create a contact form EmailJS Docs
+- Mupa M'mbetsa Nzaphila's "How to Build a Contact Form in React that Sends Emails using EmailJS"
+https://javascript.plainenglish.io/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
+
+- 
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

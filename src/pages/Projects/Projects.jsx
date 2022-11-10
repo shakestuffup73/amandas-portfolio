@@ -1,5 +1,6 @@
 import projects from '../../data/projects.js'
 import styles from '../Projects/Projects.module.css'
+import ProjectCard from './ProjectCard.jsx'
 
 const Projects = () => {
   console.log('this is projects', projects)
@@ -10,19 +11,20 @@ const Projects = () => {
 
   return (
     <>
-      <div className={styles.pageLayout}>
-        <div className={styles.gridContainer}>
-          {projects?.map(project => 
-            <div className={styles.one}>
-              <div>{project.image}</div>
-              <h2>{project.title}</h2>
-              <h3>{project.description}</h3>
-              <h3>{project.deploymentLink}</h3>
-              <h3>{project.repositoryLink}</h3>
-            </div>
-          )}
-        </div>
+    <div className={styles.techStack}>
+      <h1>Tech Skills</h1>
+      <div className={styles.languages}>
+        <h2>Languages</h2>
       </div>
+      <div className={styles.stacks}>
+        <h2>Libraries/Frameworks/Databases</h2>
+      </div>
+      <div className={styles.gridContainer}>
+      {projects?.map(project => 
+        <ProjectCard key={JSON.stringify(project)} project={project} />
+      )}
+      </div>
+    </div>
     </>
   )
 }
