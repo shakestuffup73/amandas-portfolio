@@ -16,6 +16,7 @@ import rock from './rock.png'
 import tictaccatjam from './tictaccatjam.png'
 import rockcollector from './rockcollector.png'
 import langs from './langs.png'
+import python from './python.png'
 
 const aboutMeLogo = { 
   src: AmandaAboutMeLogo,
@@ -77,6 +78,11 @@ const langs_icons = {
   altText: 'Logos for HTML, CSS and JS'
 }
 
+const python_icon = {
+  src: python,
+  altText: 'Logo for Python'
+}
+
 export {
   aboutMeLogo,
   AmandaDevProjLogo,
@@ -96,4 +102,5 @@ export {
   tictaccatjam_screenshot,
   rockcollector_screenshot,
   langs_icons,
+  python_icon,
 }

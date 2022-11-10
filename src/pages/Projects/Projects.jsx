@@ -1,7 +1,7 @@
 import projects from '../../data/projects.js'
 import styles from '../Projects/Projects.module.css'
 import ProjectCard from './ProjectCard.jsx'
-import { langs_icons } from '../../assets/images/exports.js'
+import { langs_icons, python_icon } from '../../assets/images/exports.js'
 
 const Projects = () => {
   console.log('this is projects', projects)
@@ -18,6 +18,7 @@ const Projects = () => {
       <div className={styles.languages}>
         <h2>Languages</h2>
         <img src={langs_icons.src} alt={langs_icons.altText} className={styles.langImgs}/>
+        <img src={python_icon.src} alt={python_icon.altText} className={styles.pythonImg}/>
       </div>
       <div className={styles.stacks}>
         <h2>Libraries/Frameworks/Databases</h2>
