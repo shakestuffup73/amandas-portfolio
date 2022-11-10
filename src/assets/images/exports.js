@@ -15,6 +15,7 @@ import amandalorian from './amandalorian.png'
 import rock from './rock.png'
 import tictaccatjam from './tictaccatjam.png'
 import rockcollector from './rockcollector.png'
+import langs from './langs.png'
 
 const aboutMeLogo = { 
   src: AmandaAboutMeLogo,
@@ -71,6 +72,11 @@ const rockcollector_screenshot = {
   altText: 'Screen shot of Rock Collector, featuring a pile of rocks and a frog in the dark woods'
 }
 
+const langs_icons = {
+  src: langs,
+  altText: 'Logos for HTML, CSS and JS'
+}
+
 export {
   aboutMeLogo,
   AmandaDevProjLogo,
@@ -89,4 +95,5 @@ export {
   rock_screenshot,
   tictaccatjam_screenshot,
   rockcollector_screenshot,
+  langs_icons,
 }
