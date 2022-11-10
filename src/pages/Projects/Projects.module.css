@@ -58,6 +58,7 @@
 
 .play {
   color: whitesmoke;
+  font-size: large;
 }
 
 .languages {
@@ -72,6 +73,20 @@
   margin-left: 40px;
   padding: 10px;
 }
+
+.languages2 {
+  display: column;
+  grid-template-columns: 1fr;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 70%;
+  border: 4px solid darkcyan;
+  margin-left: 40px;
+  padding: 10px;
+}
+
 
 .langImgs {
   width: 200px;
