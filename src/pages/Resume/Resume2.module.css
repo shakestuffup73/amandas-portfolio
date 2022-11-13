@@ -27,14 +27,18 @@
 }
 
 .resumeBtn {
-  width: 35%;
-  height: 35px;
   background-color: darkcyan;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 126px;
   color: whitesmoke;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1em;
+  height: 2em;
+  text-align: center;
 }
 
 .resumeBtn:hover {
-  border: 3px solid #a84444;
+  box-shadow: #a84444 0px 10px 40px -10px, #a84444 0px 10px 10px -10px,#a84444 0px -2px 6px 0px inset;
+  border: 1px solid #a84444;
+  color: #a84444;
 }

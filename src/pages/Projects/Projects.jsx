@@ -12,9 +12,7 @@ const Projects = () => {
 
   return (
     <div className={styles.techStack}>
-      <div className={styles.stacks}>
-        <h1>Tech Skills</h1>
-      </div>
+      <h1>Projects & Tech Used</h1>
       <div className={styles.languages}>
         <h2>Languages</h2>
         <img src={langs_icons.src} alt={langs_icons.altText} className={styles.langImgs}/>

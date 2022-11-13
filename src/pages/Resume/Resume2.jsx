@@ -28,6 +28,7 @@ const Resume2 = () => {
 
   return (
     <div className={styles.pageLayout}>
+      <h1>My Resume</h1>
       <div className={styles.gridContainer}>
         <div className={styles.one}>
           <Document
@@ -36,7 +37,7 @@ const Resume2 = () => {
           >
             <Page
               pageNumber={pageNumber}
-              width={330}
+              width={530}
             />
           </Document>
           <h2> Page {pageNumber} of {numPages} </h2>

@@ -11,7 +11,7 @@ const Landing = () => {
       </div>
         <AboutMe />
       <div className={styles.techDiv}>
-        <a href={amandaResume.src} download="amandaResume">Click to Download My Resume</a>
+        <a href={amandaResume.src} download="amandaResume">Download My Resume</a>
       </div>
     </div>
   )
