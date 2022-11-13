@@ -24,19 +24,19 @@ const Contact = () => {
 
   return (
     <>
-      <div className={styles.connect}>
+      <div className={styles.contactDiv}>
         <h1>Looking to connect? I'd love to hear from you!</h1>
       </div>
       <form ref={form} onSubmit={sendEmail}>
         <div className={styles.form}>
         </div>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+        <label>Name:</label>
+          <input type="text" name="user_name" />
+        <label>Email:</label>
+          <input type="email" name="user_email" />
+        <label>Message:</label>
+          <textarea name="message" />
+        <button type="submit" value="Send">Send Email</button>
       </form>
     </>
   );
