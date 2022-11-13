@@ -25,11 +25,11 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  position: fixed;
+  top: 0;
   height: 30px;
   width: 100%;
   list-style: none;
-  display: flex;
-  flex-direction: row;
   background: #181819;
   border: 2px solid darkcyan;
   font-family: luminance, serif;
