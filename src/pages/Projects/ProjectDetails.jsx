@@ -1,6 +1,5 @@
 import styles from '../Projects/Projects.module.css'
 import { useParams } from 'react-router-dom'
-import projects from '../../data/projects';
 import findProject from '../../utilities/findProject';
 
 const ProjectCard = () => {
