@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
   return ( 
     <div className={ styles.one }>
       <img src={ project.image.src } alt={ project.image.altText } className={ styles.projImg } />
-      <h1>{ project.title }</h1>
+      <h2>{ project.title }</h2>
       <h2>{ project.description }</h2>
       <div className={ styles.linkDiv }>
         <a href={ project.deploymentLink } alt={ project.deploymentLink.altText }>

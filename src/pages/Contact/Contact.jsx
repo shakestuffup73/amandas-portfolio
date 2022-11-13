@@ -1,77 +1,43 @@
-// import 'semantic-ui-css/semantic.min.css'
-import { Form, Input, TextArea, Button } from 'semantic-ui-react'
-import Swal from 'sweetalert2'
-import emailjs from 'emailjs-com'
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser'
 import styles from './Contact.modules.css'
 
-const SERVICE_ID = process.env.SERVICE_ID
-const TEMPLATE_ID = process.env.TEMPLATE_ID
-const USER_ID = process.env.USER_ID
+
+const SERVICE_ID = process.env.SERVICE_ID;
+const TEMPLATE_ID = process.env.TEMPLATE_ID;
+const PUBLIC_KEY = process.env.PUBLIC_KEY;
 
 const Contact = () => {
 
-  const handleOnSubmit = (e) => {
-    e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-      .then((result) => {
-        console.log(result.text);
-        Swal.fire({
-          icon: 'success',
-          title: 'Message Sent Successfully'
-        })
-      }, (error) => {
-        console.log(error.text);
-        Swal.fire({
-          icon: 'error',
-          title: 'Ooops, something went wrong',
-          text: error.text,
-        })
-      });
-    e.target.reset()
-  };
+  const form = useRef();
 
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   return (
     <>
-      <div className={styles.introDiv}>
-        <h1>Looking to connect?</h1> 
-        <h1>I'd love to hear from you!</h1>
-      </div>
-      <div className='App'>
-      <Form onSubmit={handleOnSubmit}>
-        <Form.Field
-          id='form-input-control-email'
-          control={Input}
-          label='Email'
-          name='user_email'
-          placeholder='Enter Your Email Here'
-          required
-          icon='mail'
-          iconPosition='left'
-        />
-        <Form.Field
-          id='form-input-control-last-name'
-          control={Input}
-          label='Name'
-          name='user_name'
-          placeholder='Enter Your Name Here'
-          required
-          icon='user circle'
-          iconPosition='left'
-        />
-        <Form.Field
-          id='form-textarea-control-opinion'
-          control={TextArea}
-          label='Message'
-          name='user_message'
-          placeholder='Message…'
-          required
-        />
-        <Button type='submit'>Submit</Button>
-      </Form>
-    </div>
+      <form ref={form} onSubmit={sendEmail}>
+        <div className={styles.connect}>
+          <h1>Looking to connect? I'd love to hear from you!</h1>
+        </div>
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+      </form>
     </>
-  )
-}
+  );
+};
 
 export default Contact
