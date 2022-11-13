@@ -4,11 +4,12 @@ import { amandalorian_screenshot, rock_screenshot, tictaccatjam_screenshot, rock
 const projects = [
   {
     title: "Tic-Tac-CatJam",
-    description: "An interactive tic-tac-toe game with music and flashing light effects for the win!",
+    description: "First software development project from GA's Software Engineering Immersive Bootcamp - an interactive tic-tac-toe game with music and flashing light effects for the win!",
     image: tictaccatjam_screenshot,
     repositoryLink: "https://github.com/shakestuffup73/ttt-weekend/blob/main/README.md",
     deploymentLink: "https://tictaccatjam.fly.dev/",
-    languages: "HTML, CSS, Javascript"  
+    languages: "8.2% HTML, 7.5% CSS, 84.3% Javascript",
+    details: "Browser-based game"  
   },
   {
     title: "Amandalorian",
@@ -16,6 +17,8 @@ const projects = [
     image: amandalorian_screenshot,
     respositoryLink: "https://github.com/shakestuffup73/amandalorian/blob/main/ReadME.md",
     deploymentLink: "https://amandalorian.netlify.app/",
+    languages: "7.4% HTML, 26.2% CSS, 66.4% Javascript",
+    details: "MEN Stack CRUD Application"  
   },
   {
     title: "Rock and Ice",
@@ -23,6 +26,8 @@ const projects = [
     image: rock_screenshot,
     respositoryLink: "https://github.com/shakestuffup73/appalachian-mtns/blob/main/README.md",
     deploymentLink: "https://appalachian-mtns.fly.dev/",
+    languages: "40.5% EJS, 20.2% CSS, 39.3% Javascript",
+    details: "MERN Stack CRUD Application"  
   },
   {
     title: "Rock Collector",
@@ -30,6 +35,8 @@ const projects = [
     image: rockcollector_screenshot,
     respositoryLink: "https://github.com/shakestuffup73/rock-collector/blob/main/READme.md",
     deploymentLink: "Coming Soon",
+    languages: "31.6% HTML, 29.6% CSS, 37.9% Python",
+    details: "Full-Featured Framework Application Built Utilizing Django and Docker"  
   },
   {
     title: "LAMdb",
@@ -37,6 +44,7 @@ const projects = [
     image: "",
     respositoryLink: "Under Construction",
     deploymentLink: "Coming Soon",
+    languages: "Front-end: 74.4% Javascript, 21.5% CSS, 3.1% HTML, 1.0% Dockerfile, Back-end: 100% Javascript"  
   }
 ]
 
