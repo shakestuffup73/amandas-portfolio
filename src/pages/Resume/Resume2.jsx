@@ -28,10 +28,7 @@ const Resume2 = () => {
 
   return (
     <div className={styles.pageLayout}>
-      <h1>My Resume</h1>
-      <div className={styles.techDiv}>
-        <a href={amandaResume.src} download="amandaResume">Download My Resume</a>
-      </div>
+      <h1>Resume</h1>
       <div className={styles.gridContainer}>
         <div className={styles.one}>
           <Document
@@ -40,7 +37,7 @@ const Resume2 = () => {
           >
             <Page
               pageNumber={pageNumber}
-              width={530}
+              width={300}
             />
           </Document>
           <h2> Page {pageNumber} of {numPages} </h2>
@@ -52,6 +49,9 @@ const Resume2 = () => {
             <button onClick={changePageNext} className={styles.resumeBtn}>Next Page</button>
           }
         </div>
+      </div>
+      <div className={styles.techDiv}>
+        <a href={amandaResume.src} download="amandaResume">Download My Resume</a>
       </div>
     </div>
   )

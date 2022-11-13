@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <div className={styles.container}>
       <div id="brand-image">
-        <img src={ amandaRFLogo_icon.src } alt={ amandaRFLogo_icon.alt } />
+        <img src={ amandaRFLogo_icon.src } alt={ amandaRFLogo_icon.alt } className={styles.logo}/>
       </div>
         <AboutMe />
       <div className={styles.techDiv}>
