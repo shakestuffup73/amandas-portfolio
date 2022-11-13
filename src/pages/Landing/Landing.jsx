@@ -1,19 +1,18 @@
 import styles from '../Landing/Landing.module.css'
 import { amandaRFLogo_icon } from '../../assets/images/exports'
 import AboutMe from '../AboutMe/AboutMe'
-import Resume from '../Resume/Resume2'
+import { amandaResume } from '../../pdf/exports'
 
 const Landing = () => {
   return (
     <div className={styles.container}>
-        <div id="brand-image">
-          <img src={ amandaRFLogo_icon.src } alt={ amandaRFLogo_icon.alt } />
-        </div>
-          <AboutMe />
-        <div className={styles.techDiv}>
-          <button>Download My Resume Here</button>
-        </div>
-          <Resume />
+      <div id="brand-image">
+        <img src={ amandaRFLogo_icon.src } alt={ amandaRFLogo_icon.alt } />
+      </div>
+        <AboutMe />
+      <div className={styles.techDiv}>
+        <a href={amandaResume.src} download="amandaResume">Click to Download My Resume</a>
+      </div>
     </div>
   )
 }
