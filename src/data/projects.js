@@ -7,7 +7,8 @@ const projects = [
     description: "An interactive tic-tac-toe game with music and flashing light effects for the win!",
     image: tictaccatjam_screenshot,
     repositoryLink: "https://github.com/shakestuffup73/ttt-weekend/blob/main/README.md",
-    deploymentLink: "https://tictaccatjam.fly.dev/",  
+    deploymentLink: "https://tictaccatjam.fly.dev/",
+    languages: "HTML, CSS, Javascript"  
   },
   {
     title: "Amandalorian",

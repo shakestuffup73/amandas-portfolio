@@ -12,6 +12,11 @@ const ProjectCard = (props) => {
           <h3 className={ styles.play }> { project.title } { project.title.src }</h3>
         </a>
       </div>
+      <div className={ styles.linkDiv }>
+        <a href={ project.repositoryLink } alt="repository link">
+          <h3 className={ styles.play }> Details</h3>
+        </a>
+      </div>
     </div>
   );
 }
