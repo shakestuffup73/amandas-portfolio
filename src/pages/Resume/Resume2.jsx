@@ -29,6 +29,9 @@ const Resume2 = () => {
   return (
     <div className={styles.pageLayout}>
       <h1>My Resume</h1>
+      <div className={styles.techDiv}>
+        <a href={amandaResume.src} download="amandaResume">Download My Resume</a>
+      </div>
       <div className={styles.gridContainer}>
         <div className={styles.one}>
           <Document
