@@ -38,14 +38,14 @@ const projects = [
     languages: "31.6% HTML, 29.6% CSS, 37.9% Python",
     details: "Full-Featured Framework Application Built Utilizing Django and Docker"  
   },
-  {
-    title: "LAMdb",
-    description: "A secure database for managing pets' veterinary records.",
-    image: "",
-    respositoryLink: "Under Construction",
-    deploymentLink: "Coming Soon",
-    languages: "Front-end: 74.4% Javascript, 21.5% CSS, 3.1% HTML, 1.0% Dockerfile, Back-end: 100% Javascript"  
-  }
+  // {
+  //   title: "LAMdb",
+  //   description: "A secure database for managing pets' veterinary records.",
+  //   image: "",
+  //   respositoryLink: "Under Construction",
+  //   deploymentLink: "Coming Soon",
+  //   languages: "Front-end: 74.4% Javascript, 21.5% CSS, 3.1% HTML, 1.0% Dockerfile, Back-end: 100% Javascript"  
+  // }
 ]
 
 export default projects

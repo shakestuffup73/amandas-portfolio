@@ -12,15 +12,15 @@ const Projects = () => {
 
   return (
     <div className={styles.techStack}>
-      <div className={styles.languages}>
         <h1>Tech Skills</h1>
+      <div className={styles.languages}>
         <h2>Languages</h2>
         <img src={langs_icons.src} alt={langs_icons.altText} className={styles.langImgs}/>
         <img src={python_icon.src} alt={python_icon.altText} className={styles.pythonImg}/>
       </div>
       <div className={styles.languages2}>
         <h2>Libraries/Frameworks/Databases</h2>
-        <h2>Bootstrap || NodeJS || Django || React || Mongoose || MongoDB || PostgreSQL || SQL || Express</h2>
+        <h3>Bootstrap || NodeJS || Django || React || Mongoose || MongoDB || PostgreSQL || SQL || Express</h3>
       </div>
       <div className={styles.gridContainer}>
       <h1>Projects</h1>

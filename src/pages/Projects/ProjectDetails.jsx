@@ -16,7 +16,7 @@ const ProjectCard = () => {
       <div className={ styles.detailsDiv }>
         <img src={ project.image.src } alt={ project.image.altText } className={ styles.projImg } />
         <h2>{ project.title }</h2>
-        <h2>{ project.description }</h2>
+        <h3>{ project.description }</h3>
         <h2>{ project.details }</h2>
         <h2>{ project.languages } </h2>
         <div className={ styles.linkDiv }>
