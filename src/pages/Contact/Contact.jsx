@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <>
       <div className={styles.contactDiv}>
-        <h1>Looking to connect? I'd love to hear from you!</h1>
+        <h1>Contact Me</h1>
       </div>
       <form ref={form} onSubmit={sendEmail}>
         <div className={styles.form}>
