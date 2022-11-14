@@ -17,6 +17,7 @@ import tictaccatjam from './tictaccatjam.png'
 import rockcollector from './rockcollector.png'
 import langs from './langs.png'
 import python from './python.png'
+import lamdb from './lamdb.png'
 
 const aboutMeLogo = { 
   src: AmandaAboutMeLogo,
@@ -83,6 +84,11 @@ const python_icon = {
   altText: 'Logo for Python'
 }
 
+const lamdb_screenshot = {
+  src: lamdb,
+  altText: 'Screen shot of LAMdb, featuring a cute fluffy lamb.'
+}
+
 export {
   aboutMeLogo,
   AmandaDevProjLogo,
@@ -103,4 +109,5 @@ export {
   rockcollector_screenshot,
   langs_icons,
   python_icon,
+  lamdb_screenshot,
 }
