@@ -24,11 +24,9 @@ const Contact = () => {
 
   return (
     <>
-      <div className={styles.contactDiv} id="contact">
-        <h1>Contact Me</h1>
-      </div>
       <form ref={form} onSubmit={sendEmail}>
-        <div className={styles.form}>
+        <div className={styles.contactDiv2} id="contact">
+          <h1>Contact Me</h1>
         </div>
         <label>Name:</label>
           <input type="text" name="user_name" />
