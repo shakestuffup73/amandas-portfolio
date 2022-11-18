@@ -11,8 +11,8 @@ const Projects = () => {
   }
 
   return (
-    <div className={styles.techStack}>
-        <h1>Tech Skills</h1>
+    <div className={styles.techStack} id="tech">
+        <h1>Tech Skills/Projects</h1>
       <div className={styles.languages}>
         <h2>Languages</h2>
         <img src={langs_icons.src} alt={langs_icons.altText} className={styles.langImgs}/>
@@ -23,7 +23,6 @@ const Projects = () => {
         <h3>Bootstrap || NodeJS || Django || React || Mongoose || MongoDB || PostgreSQL || SQL || Express</h3>
       </div>
       <div className={styles.gridContainer}>
-      <h1>Projects</h1>
       {projects?.map(project => 
         <ProjectCard key={JSON.stringify(project)} project={project} />
       )}

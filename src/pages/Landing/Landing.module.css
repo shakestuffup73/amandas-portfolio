@@ -34,6 +34,11 @@ div > img {
   left: 0;
 }
 
+hr {
+  width: 85%;
+  margin-left: 50px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -44,7 +49,12 @@ div > img {
 }
 
 .techDiv {
-  width: 50%;
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #title-div > h1 {
@@ -56,11 +66,12 @@ div > img {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 20px;
   height: 10px;
-  width: 166px;
+  width: 180px;
   margin-bottom: 40px;
   align-items: center;
   justify-content: center;
   margin-left: 50px;
+  font-size: 1.1em;
 }
 
 .techDiv > a:hover {

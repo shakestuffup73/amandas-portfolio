@@ -6,6 +6,7 @@ import {
 import LeftNavLink from './LeftNavLink'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import arrow from '../../assets/lotties/arrow.json'
 import { star_icon } from '../../assets/images/exports'
 import Lottie from 'react-lottie-player'
@@ -45,10 +46,10 @@ const LeftNav = () => {
     <>
       <header>
         <nav className={`menuNav ${navbarOpen ? "" : "showMenu"}`}>
-          <Link to='/projects'>Projects</Link>
-          <Link to='/resume2'>Resume</Link>
-          <Link to='/contact'>Contact</Link>
-          <Link to='/' onClick={() => closeMenu()}><img src={star_icon.src} alt={star_icon.alt} height="15px" width="15px" /></Link>
+          <HashLink to='#tech'>Projects</HashLink>
+          <HashLink to='#resume'>Resume</HashLink>
+          <HashLink to='#contact'>Contact</HashLink>
+          <HashLink to='#brand-image'><img src={star_icon.src} alt={star_icon.alt} height="15px" width="15px" /></HashLink>
         </nav>
       </header>
       <div id="icon-div">
