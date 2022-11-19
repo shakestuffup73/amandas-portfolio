@@ -44,9 +44,9 @@ const LeftNav = () => {
       <header>
         <nav className={`menuNav ${navbarOpen ? "" : "showMenu"}`}>
           <HashLink to='/projects/#tech'>Projects</HashLink>
-          <HashLink to='#resume'>Resume</HashLink>
-          <HashLink to='#contact'>Contact</HashLink>
-          <HashLink to='#brand-image'><img src={star_icon.src} alt={star_icon.alt} height="15px" width="15px" /></HashLink>
+          <HashLink to='/#resume'>Resume</HashLink>
+          <HashLink to='/#contact'>Contact</HashLink>
+          <HashLink to='/#brand-image'><img src={star_icon.src} alt={star_icon.alt} height="15px" width="15px" /></HashLink>
         </nav>
       </header>
       <div id="icon-div">
