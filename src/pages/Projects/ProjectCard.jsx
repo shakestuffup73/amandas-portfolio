@@ -9,7 +9,7 @@ const ProjectCard = ({project}) => {
     <div className={ styles.one }>
       <img src={ project.image.src } alt={ project.image.altText } className={ styles.projImg } />
       <h2>{ project.title }</h2>
-      <Link to={path}>
+      <Link to={`/projects/${path}`}>
         <button className={styles.detailsBtn}>Details</button>
       </Link>
     </div>
