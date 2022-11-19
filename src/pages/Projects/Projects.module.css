@@ -42,10 +42,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 85%;
-  padding: 6px;
+  width: 90%;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #181819;
+  border: 2px solid darkcyan;
+}
+
+.gridContainer3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 20px;
   margin-bottom: 40px;
   background-color: #181819;
   border: 2px solid darkcyan;
@@ -109,14 +121,13 @@
 .detailsDiv {
   background-color: whitesmoke;
   min-height: 45vh;
-  width: 55%;
-  margin-left: 35px;
+  width: 80%;
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 30px;
   padding-bottom: 40px;
-  border: 4px solid darkcyan;
+  border: 2px solid darkcyan;
 }
 
 .linkDiv {
@@ -152,11 +163,6 @@
   }
   h3 {
     font-size: 1.2em;
-  }
-
-  hr {
-    width: 100%;
-    border: 3px solid whitesmoke;
   }
 
   .gridContainer {

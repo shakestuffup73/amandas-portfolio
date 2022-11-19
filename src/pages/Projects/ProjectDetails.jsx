@@ -10,9 +10,8 @@ const ProjectCard = () => {
   console.log('this is project', project)
 
   return ( 
-    <>
+    <div className={styles.gridContainer3}>
       <h1>{project.title}</h1>
-      
       <div className={ styles.detailsDiv }>
         <img src={ project.image.src } alt={ project.image.altText } className={ styles.projImg } />
         <h2>{ project.title }</h2>
@@ -30,7 +29,7 @@ const ProjectCard = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

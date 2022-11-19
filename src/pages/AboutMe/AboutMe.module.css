@@ -5,11 +5,11 @@ h3 {
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr;
-  width: 85%;
+  width: 81%;
   margin-left: 50px;
   margin-top: 50px;
   margin-bottom: 40px;
-  padding: 6px;
+  padding: 20px;
   background-color: #181819;
   border: 2px solid darkcyan;
 }
@@ -55,4 +55,13 @@ h3 {
 .techDiv > a:hover {
   box-shadow: #a84444 0px 10px 40px -10px, #a84444 0px 10px 10px -10px,#a84444 0px -2px 6px 0px inset;
   border: 1px solid #a84444;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
 }
