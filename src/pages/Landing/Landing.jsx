@@ -8,9 +8,9 @@ import Contact from '../Contact/Contact'
 const Landing = () => {
   return (
     <div className={styles.container}>
-      <div id="brand-image">
+      {/* <div id="brand-image">
         <img src={ amandaRFLogo_icon.src } alt={ amandaRFLogo_icon.alt } className={styles.logo}/>
-      </div>
+      </div> */}
         <AboutMe />
         <Projects />
         <Contact />

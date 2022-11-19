@@ -5,11 +5,11 @@ h3 {
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr;
-  width: 81%;
+  width: 86%;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 40px;
-  padding: 20px;
+  padding: 6px;
   background-color: #181819;
   border: 2px solid darkcyan;
 }

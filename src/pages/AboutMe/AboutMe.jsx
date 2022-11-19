@@ -1,5 +1,6 @@
 import styles from '../AboutMe/AboutMe.module.css'
-import { amandaLibby_desert } from '../../assets/images/exports'
+// import { amandaLibby_desert } from '../../assets/images/exports'
+import { Self8_image } from '../../assets/images/exports'
 import { amandaResume } from '../../pdf/exports'
 
 const AboutMe = () => {
@@ -8,8 +9,8 @@ const AboutMe = () => {
     
     <div className={styles.gridContainer}>
       <div className={styles.one}>
-        <h1>Hi, I'm Amanda.</h1>
-        <img src={amandaLibby_desert.src} alt={amandaLibby_desert.alt} />
+        <h1 id="brand-image">Hi, I'm Amanda.</h1>
+        <img src={Self8_image.src} alt={Self8_image.alt} />
         <div className={styles.myTagLine} id="resume">
           <h3>Software Engineer <br /> Photographer <br /> Wilderness Wanderer <br /> Loyal Human to my Beloved Lab, Libby </h3>
         </div>

@@ -9,7 +9,7 @@ import aperture from './aperture.png'
 import github_white from './github_white.png'
 import linkedin_cyan from './linkedin_cyan.png'
 import Self1 from './Self1.jpg'
-import Self7 from './Self7.jpg'
+// import Self7 from './Self7.jpg'
 import Star from './Star.png'
 import amandalorian from './amandalorian.png'
 import rock from './rock.png'
@@ -18,6 +18,7 @@ import rockcollector from './rockcollector.png'
 import langs from './langs.png'
 import python from './python.png'
 import lamdb from './lamdb.png'
+import Self8 from './Self8.jpg'
 
 const aboutMeLogo = { 
   src: AmandaAboutMeLogo,
@@ -89,6 +90,11 @@ const lamdb_screenshot = {
   altText: 'Screen shot of LAMdb, featuring a cute fluffy lamb.'
 }
 
+const Self8_image = {
+  src: Self8,
+  altText: 'Amanda in red sweater and glasses smiling'
+}
+
 export {
   aboutMeLogo,
   AmandaDevProjLogo,
@@ -101,7 +107,6 @@ export {
   github_icon,
   linkedin_icon,
   Self1,
-  Self7,
   star_icon,
   amandalorian_screenshot,
   rock_screenshot,
@@ -110,4 +115,5 @@ export {
   langs_icons,
   python_icon,
   lamdb_screenshot,
+  Self8_image
 }
