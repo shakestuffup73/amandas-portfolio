@@ -5,7 +5,6 @@ import {
 } from '../../assets/images/exports'
 import LeftNavLink from './LeftNavLink'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import arrow from '../../assets/lotties/arrow.json'
 import { star_icon } from '../../assets/images/exports'
