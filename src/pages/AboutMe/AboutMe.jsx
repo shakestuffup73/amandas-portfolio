@@ -10,10 +10,10 @@ const AboutMe = () => {
       <div className={styles.one}>
         <h1>Hi, I'm Amanda.</h1>
         <img src={amandaLibby_desert.src} alt={amandaLibby_desert.alt} />
-        <div className={styles.myTagLine}>
+        <div className={styles.myTagLine} id="resume">
           <h3>Software Engineer <br /> Photographer <br /> Wilderness Wanderer <br /> Loyal Human to my Beloved Lab, Libby </h3>
         </div>
-        <div className={styles.techDiv} id="resume">
+        <div className={styles.techDiv}>
           <a href={amandaResume.src} download="amandaResume">Download My Resume</a>
         </div>
         <h2>
