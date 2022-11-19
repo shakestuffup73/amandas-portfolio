@@ -1,5 +1,5 @@
 import styles from '../Landing/Landing.module.css'
-import { amandaRFLogo_icon } from '../../assets/images/exports'
+// import { amandaRFLogo_icon } from '../../assets/images/exports'
 import AboutMe from '../AboutMe/AboutMe'
 import Projects from '../Projects/Projects'
 // import Resume from '../Resume/Resume2'
