@@ -20,7 +20,7 @@ const Projects = () => {
           </div>
           <div className={styles.languages2}>
             <h2>Libraries/Frameworks/Databases</h2>
-            <h3>Bootstrap || NodeJS || Django || React || Mongoose || MongoDB || PostgreSQL || SQL || Express</h3>
+            <h2>Bootstrap || NodeJS || Django || React || Mongoose || MongoDB || PostgreSQL || SQL || Express</h2>
           </div>
           <div className={styles.gridContainer}>
           {projects?.map(project => 

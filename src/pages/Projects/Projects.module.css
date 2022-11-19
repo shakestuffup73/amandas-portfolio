@@ -30,7 +30,7 @@
   text-align: center;
   width: 90%;
   max-width: 600px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 20px;
   background-color: whitesmoke;
   min-height: fit-content;
@@ -144,6 +144,29 @@
 .play:hover {
   color: #a84444;
 }
+
+.projectDetails {
+  display: none;
+}
+
+.projectDetails.showDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  height: 30px;
+  width: 100%;
+  list-style: none;
+  background: #181819;
+  font-family: luminance, sans-serif;
+  font-size: 1.1em;
+}
+
+
+
+
 
 @media only screen and (min-width: 768px) {
   h1 {
