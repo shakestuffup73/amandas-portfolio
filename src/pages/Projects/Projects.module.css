@@ -42,7 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 88%;
   margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -156,7 +156,6 @@
 .play:hover {
   color: #a84444;
 }
-
 
 @media only screen and (min-width: 768px) {
   h1 {
