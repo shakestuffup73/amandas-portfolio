@@ -10,7 +10,7 @@ const Resume2 = () => {
             <li>
               <div className={styles.timelineContent}>
                 <h1>Role 1</h1>
-                <p>Information About Job</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, deleniti! Fuga distinctio est facere ducimus itaque consequatur harum, in ipsum at facilis repellendus cupiditate, autem minima, architecto iste laudantium modi?</p>
               </div>
             </li>
             <li>
