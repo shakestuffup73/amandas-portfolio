@@ -5,12 +5,12 @@ const Resume2 = () => {
 
   return (
     <>
-    <div className={styles.gridContainer} id="resume">
+    <div className={styles.resume} id="resume">
+      <a href={amandaResume.src} download="amandaResume" >Download My Resume</a>
+    </div>
+    <div className={styles.gridContainer}>
       <h1>Professional Timeline</h1>
       <div className={styles.one}>
-      <div className={styles.techDiv2}>
-        <a href={amandaResume.src} download="amandaResume">Download My Resume</a>
-      </div>
           <div className={styles.timeline}>
             <ul>
               <br></br>
