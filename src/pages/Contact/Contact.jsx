@@ -34,7 +34,7 @@ const Contact = () => {
 
   return (
     <>
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail} id="contact">
       <h1>Contact Me</h1>
       <label>Name:</label>
         <input type="text" name="user_name" />
