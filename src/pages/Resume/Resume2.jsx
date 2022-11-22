@@ -1,11 +1,15 @@
 import styles from '../Resume/Resume2.module.css'
+import { amandaResume } from '../../pdf/exports'
 
 const Resume2 = () => {
 
   return (
     <>
-    <div className={styles.gridContainer}>
+    <div className={styles.gridContainer} id="resume">
       <h1>Professional Timeline</h1>
+        <div className={styles.techDiv2}>
+          <a href={amandaResume.src} download="amandaResume">Download My Resume</a>
+        </div>
       <div className={styles.one}>
           <div className={styles.timeline}>
             <ul>

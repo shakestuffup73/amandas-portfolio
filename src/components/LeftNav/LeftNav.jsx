@@ -49,18 +49,20 @@ const LeftNav = () => {
         </nav>
       </header>
       <div id="icon-div">
-        <Lottie
-        loop
-        animationData={arrow}
-        play
-        style={{ width: 80 }}
-        onClick={handleToggle}
-        />
         { 
           linkData.map(link => (
             <LeftNavLink key={JSON.stringify(link)} data={link}/>
           ))
         }
+      </div>
+      <div id="lottie-div">
+      <Lottie
+        loop
+        animationData={arrow}
+        play
+        style={{ width: 70 }}
+        onClick={handleToggle}
+        />
       </div>
     </>
   );
