@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
 import styles from './Contact.modules.css'
 
@@ -42,7 +42,7 @@ const Contact = () => {
         <input type="email" name="user_email" />
       <label>Message:</label>
         <textarea name="message" placeholder="Drag bottom-right corner to expand text area"/>
-      <button type="submit" value="Send">Send Email</button>
+      <button type="submit">Send Email</button>
     </form>
     </>
   );
