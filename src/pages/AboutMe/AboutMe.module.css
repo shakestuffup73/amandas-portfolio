@@ -1,5 +1,5 @@
-h3 {
-  font-size: 14px;
+p {
+  font-size: 12px;
 }
 
 iframe {
@@ -7,9 +7,12 @@ iframe {
 }
 
 .headshot {
-  width: 50%;
-  border: 3px solid darkcyan;
-  margin-right: 10px;
+  width: 45%;
+  border: 2px solid darkcyan;
+  border-radius: 5%;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 5px;
 }
 
 .gridContainer {
@@ -29,17 +32,12 @@ iframe {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: right;
   text-align: justify;
-  padding: 10px;
+  padding: 20px;
   background-color: whitesmoke;
   margin: 6px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.myTagLine {
-  text-align: center;
-  color: #a84444;
 }
 
 .techDiv {
@@ -49,6 +47,7 @@ iframe {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  float: right;
 }
 
 .techDiv > a {
