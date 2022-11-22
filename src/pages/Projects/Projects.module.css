@@ -55,23 +55,29 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 72%;
+  width: 78%;
   margin-left: 60px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 6px;
   background-color: #181819;
   border: 2px solid darkcyan;
+  font-size: 1em;
 }
 
 .one {
   background-color: whitesmoke;
-  min-height: 30vh;
+  min-height: 20vh;
   margin: 6px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   margin-left: 10px;
+}
+
+.one > h2 {
+  font-size: 1.1em;
+  padding-top: 4px;
 }
 
 .detailsBtn {
@@ -164,7 +170,6 @@
   h3 {
     font-size: 1.2em;
   }
-
   .gridContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

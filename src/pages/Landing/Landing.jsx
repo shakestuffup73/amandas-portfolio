@@ -9,8 +9,8 @@ const Landing = () => {
   return (
     <div className={styles.container}>
       <AboutMe />
-      <Resume />
       <Projects />
+      <Resume />
       <Contact />
     </div>
   )

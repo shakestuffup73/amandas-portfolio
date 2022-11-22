@@ -6,7 +6,7 @@ form {
   align-items: justify;
   border: 2px solid darkcyan;
   padding: 10px;
-  width: 85%;
+  width: 83%;
   color: whitesmoke;
   background-color: #181819;
   font-family: luminance, serif;
@@ -45,11 +45,11 @@ form > button:hover {
 }
 
 .contactDiv {
-  width: 100%;
+  width: 98%;
   background-color: #181819;
 }
 
 .contactDiv2 {
-  width: 100%;
+  width: 90%;
   border: 2px solid darkcyan;
 }

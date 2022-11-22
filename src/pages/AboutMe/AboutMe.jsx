@@ -11,7 +11,7 @@ const AboutMe = () => {
       <h1 id="brand-image">Hi, I'm Amanda.</h1>
       <div className={styles.one}>
         <p>
-        <img src={Self8_image.src} alt={Self8_image.alt} className={styles.headshot} />
+        <img src={Self8_image.src} alt={Self8_image.alt} className={styles.headshot} id="resume"/>
         As a Software Engineer, I utilize best practices to create applications and products to meet a variety of business and user needs. I've spent my professional career working project management for software development programs in the Air Force and as a Park Ranger in the Bureau of Land Management, where I worked wildland fire response and collected field data for integration into SQL databases. From these experiences I was inspired to pursue Software Development full-time and made the career-switch by attending an immersive Software Engineering bootcamp through General Assembly.
         <br></br>
         <br></br>

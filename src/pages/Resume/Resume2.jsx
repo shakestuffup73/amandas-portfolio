@@ -114,6 +114,16 @@ const Resume2 = () => {
                   <p>&#10023; Coordinated with legal, finance, contracting teams to ensure program compliance with Federal Acquisition Regulations</p>
                 </div>
               </li>
+              <li>
+              <h3>August 2008 - May 2012</h3>
+                <div className={styles.timelineContent}>
+                  <h1>Cornell University</h1>
+                  <h2>Bachelor of Science</h2>
+                  <p>&#10023; Major: Animal Science & Communications</p>
+                  <p>&#10023; Varsity Polo, starting player - #1 East Coast Regional Champions, #2 National Finals</p>
+                  <p>&#10023; Air Force ROTC - Scabbard & Blade Military Honor Society</p>
+                </div>
+              </li>
             </ul>
           </div>
         </div>

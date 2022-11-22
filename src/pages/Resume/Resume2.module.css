@@ -23,9 +23,8 @@ h1 {
 }
 
 h2 {
-  line-height: .1em;
   font-family: costa, sans-serif;
-  font-size: .8em;
+  font-size: 1em;
   font-weight: bolder;
   font-style: italic;
 }
@@ -99,16 +98,11 @@ p {
   background-color: whitesmoke;
   padding: 20px;
   color: whitesmoke;
-  border-radius: 5px;
   margin-bottom: 15px;
-  margin-left: -31px;
-  width: 90%;
+  margin-left: -46px;
+  width: 100%;
   z-index: -1000;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.timeline ul li:last-child{
-  margin-bottom: 0;
 }
 
 .timelineContent h1 {
