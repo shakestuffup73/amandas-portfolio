@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 import Swal from 'sweetalert2';
-// import styles from './Contact.modules.css'
+import styles from './Contact.modules.css'
 
 const SERVICE_ID = process.env.REACT_APP_SERVICE_ID
 const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID
@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <>
     <form ref={form} onSubmit={sendEmail} id="contact">
-      <h1>Contact Me</h1>
+      <h1 className={styles.contact}>Contact Me</h1>
       <label>Name:</label>
         <input type="text" name="user_name" />
       <label>Email:</label>
