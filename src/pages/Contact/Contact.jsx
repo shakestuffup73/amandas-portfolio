@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import Swal from 'sweetalert2';
 import styles from './Contact.modules.css'
 
 const SERVICE_ID = process.env.REACT_APP_SERVICE_ID
@@ -16,8 +17,17 @@ const Contact = () => {
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
       .then((result) => {
         console.log(result.text);
+        Swal.fire({
+          icon: 'success',
+          title: 'Thanks for reaching out!'
+        })
       }, (error) => {
         console.log(error.text);
+        Swal.fire({
+          icon: 'error',
+          title: 'Ooops, something went wrong',
+          text: error.text,
+        })
       });
       e.target.reset();
   };
@@ -25,7 +35,6 @@ const Contact = () => {
   return (
     <>
     <form ref={form} onSubmit={sendEmail}>
-    <div className={styles.gridContainer4}>
       <h1>Contact Me</h1>
       <label>Name:</label>
         <input type="text" name="user_name" />
@@ -34,7 +43,6 @@ const Contact = () => {
       <label>Message:</label>
         <textarea name="message" placeholder="Drag bottom-right corner to expand text area"/>
       <button type="submit" value="Send">Send Email</button>
-    </div>
     </form>
     </>
   );
