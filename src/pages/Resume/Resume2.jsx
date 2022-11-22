@@ -7,10 +7,10 @@ const Resume2 = () => {
     <>
     <div className={styles.gridContainer} id="resume">
       <h1>Professional Timeline</h1>
-        <div className={styles.techDiv2}>
-          <a href={amandaResume.src} download="amandaResume">Download My Resume</a>
-        </div>
       <div className={styles.one}>
+      <div className={styles.techDiv2}>
+        <a href={amandaResume.src} download="amandaResume">Download My Resume</a>
+      </div>
           <div className={styles.timeline}>
             <ul>
               <br></br>

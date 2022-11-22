@@ -60,7 +60,7 @@ const LeftNav = () => {
         loop
         animationData={arrow}
         play
-        style={{ width: 70 }}
+        style={{ width: 60 }}
         onClick={handleToggle}
         />
       </div>
