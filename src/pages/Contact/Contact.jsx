@@ -24,18 +24,18 @@ const Contact = () => {
 
   return (
     <>
-      <form ref={form} onSubmit={sendEmail}>
-        <div className={styles.contactDiv2} id="contact">
-          <h1>Contact Me</h1>
-        </div>
-        <label>Name:</label>
-          <input type="text" name="user_name" />
-        <label>Email:</label>
-          <input type="email" name="user_email" />
-        <label>Message:</label>
-          <textarea name="message" placeholder="Drag bottom-right corner to expand text area"/>
-        <button type="submit" value="Send">Send Email</button>
-      </form>
+    <form ref={form} onSubmit={sendEmail}>
+    <div className={styles.gridContainer4}>
+      <h1>Contact Me</h1>
+      <label>Name:</label>
+        <input type="text" name="user_name" />
+      <label>Email:</label>
+        <input type="email" name="user_email" />
+      <label>Message:</label>
+        <textarea name="message" placeholder="Drag bottom-right corner to expand text area"/>
+      <button type="submit" value="Send">Send Email</button>
+    </div>
+    </form>
     </>
   );
 };

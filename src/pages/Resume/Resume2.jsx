@@ -87,7 +87,7 @@ const Resume2 = () => {
                   <h1>National Outdoor Leadership School (NOLS)</h1>
                   <h2>Wilderness Medicine Rescue Semester</h2>
                   <p>&#10023; 90-day Team Expedition focused on Wilderness Emergency Medicine</p>
-                  <p>Backpacked canyons in Utah, rock climbed and backcountry skied in Wyoming</p>
+                  <p>&#10023; Backpacked canyons in Utah, rock climbed and backcountry skied in Wyoming</p>
                   <p>&#10023; National Registry of EMT Certified (NREMT)</p>
                   <p>&#10023; Leave No Trace Master Educator Certified</p>
                   <p>&#10023; Avalanche Rescue 1 Certified</p>
