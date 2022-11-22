@@ -23,8 +23,9 @@
   align-items: center;
   justify-content: center;
   color: whitesmoke;
-  width: 80%;
-  border: 2px solid darkcyan;
+  width: 100%;
+  z-index: -1000;
+  margin-left: 5px;
 }
 
 .timeline {
@@ -34,27 +35,32 @@
   margin: 0 auto;
   position: relative;
   content: '';
-  width: 1px;
-  background-color: darkcyan;
   left: 0%;
 }
 
 .timelineContent {
-  width: 100%;
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1000;
 }
 
 .timeline ul {
   list-style: none;
+  min-width: 120px;
+  max-width: 600px;
 }
 
 .timeline ul li {
   padding: 20px;
   background-color: #181819;
-  border: 1px solid darkcyan;
+  border: 1px solid whitesmoke;
   color: whitesmoke;
   border-radius: 10px;
-  margin-bottom: 10px;
-  width: 100%;
+  margin-bottom: 20px;
+  width: 80%;
+  z-index: -1000;
 }
 
 .timeline ul li:last-child{
@@ -82,6 +88,12 @@
     background-color: darkcyan;
     left: 50%;
     transform: translateX(-50%);
+    transform: translateX(60px);
+  }
+
+  .timeline ul {
+    min-width: 400px;
+    transform: translateX(60px);
   }
 
   .timeline ul li {
