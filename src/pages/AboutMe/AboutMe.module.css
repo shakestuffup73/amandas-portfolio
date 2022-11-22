@@ -2,9 +2,20 @@ h3 {
   font-size: 14px;
 }
 
+iframe {
+  margin: 6px;
+}
+
+.headshot {
+  width: 50%;
+  border: 3px solid darkcyan;
+  margin-right: 10px;
+}
+
 .gridContainer {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 86%;
   margin-left: 50px;
   margin-top: 20px;
@@ -15,15 +26,15 @@ h3 {
 }
 
 .one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   text-align: justify;
   padding: 10px;
   background-color: whitesmoke;
   margin: 6px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.one > img {
-  border: 3px solid darkcyan;
 }
 
 .myTagLine {

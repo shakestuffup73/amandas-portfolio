@@ -5,9 +5,8 @@ const Resume2 = () => {
   return (
     <>
     <div className={styles.gridContainer}>
+      <h1>Professional Timeline</h1>
       <div className={styles.one}>
-        <div className={styles.container}>
-        <h1>Professional Timeline</h1>
           <div className={styles.timeline}>
             <ul>
               <br></br>
@@ -118,7 +117,6 @@ const Resume2 = () => {
             </ul>
           </div>
         </div>
-      </div>
       </div>
     </>
   )
