@@ -32,7 +32,7 @@ h2 {
 
 h3 {
   color: #181819;
-  line-height: .1em;
+  line-height: 1.1em;
   font-size: .8em;
   font-family: costa, sans-serif;
   font-weight: bolder;
@@ -55,11 +55,11 @@ p {
 .timeline {
   height: auto;
   max-width: 1200px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
   content: '';
-  left: 0%;
+  left: 1%;
 }
 
 .timelineContent {
