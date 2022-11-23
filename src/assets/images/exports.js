@@ -46,6 +46,7 @@ import python2 from './python2.svg'
 import react from './react.svg'
 import visualstudiocode from './visualstudiocode.svg'
 import DOI from './DOI.svg'
+import ga from './ga.png'
 // import { json } from 'react-router-dom'
 // import { mongo } from 'mongoose'
 
@@ -259,6 +260,11 @@ const DOI_logo = {
   altText: 'DOI Logo for job experience'
 }
 
+const ga_logo = {
+  src: ga,
+  altText: 'General Assembly logo'
+}
+
 export {
   aboutMeLogo,
   AmandaDevProjLogo,
@@ -307,4 +313,5 @@ export {
   react_svg,
   visualstudiocode_svg,
   DOI_logo,
+  ga_logo,
 }

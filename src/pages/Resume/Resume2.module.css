@@ -13,7 +13,7 @@ h2 {
 }
 
 h3 {
-  color: #181819;
+  color: whitesmoke;
   line-height: 1.1em;
   font-size: .8em;
   font-family: costa, sans-serif;
@@ -25,6 +25,14 @@ p {
   font-family: costa, sans-serif;
   font-weight: 300;
   font-style: normal;
+}
+
+.icons {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: whitesmoke;
 }
 
 .gridContainer {

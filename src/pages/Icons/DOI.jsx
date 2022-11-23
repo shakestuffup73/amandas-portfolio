@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DOI_LOGO() {
   return (
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" style={{ width: "inherit", height: "inherit"}}>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
   <g transform="matrix(9.6627 0 0 -9.6627 -2491.175 5522.7)">
     <ellipse cx="270.84" cy="-558.55" fill="#ffdd1a" rx="12.936" ry="12.886" transform="scale(1 -1)"/>
     <ellipse cx="270.81" cy="-558.59" fill="#fff" rx="12.501" ry="12.526" transform="scale(1 -1)"/>
