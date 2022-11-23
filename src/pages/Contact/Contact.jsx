@@ -3,9 +3,9 @@ import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
 import styles from './Contact.modules.css'
 
-const SERVICE_ID = process.env.REACT_APP_SERVICE_ID
-const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID
-const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY
+// const SERVICE_ID = process.env.REACT_APP_SERVICE_ID
+// const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID
+// const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY
 
 const Contact = () => {
 
@@ -14,7 +14,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+    emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current, process.env.PUBLIC_KEY)
       .then((result) => {
         console.log(result.text);
         Swal.fire({
