@@ -19,7 +19,7 @@ import langs from './langs.png'
 import python from './python.png'
 import lamdb from './lamdb.png'
 import Self8 from './Self8.jpg'
-import og_image from './og_image.png'
+import og from './og.png'
 
 const aboutMeLogo = { 
   src: AmandaAboutMeLogo,
@@ -96,8 +96,8 @@ const Self8_image = {
   altText: 'Amanda in red sweater and glasses smiling'
 }
 
-const og_image_web = {
-  src: og_image,
+const og_image = {
+  src: og,
   altText: 'Screenshot of Amanda Stern portfolio page'
 }
 
@@ -122,5 +122,5 @@ export {
   python_icon,
   lamdb_screenshot,
   Self8_image,
-  og_image_web,
+  og_image,
 }
