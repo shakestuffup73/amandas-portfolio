@@ -1,8 +1,10 @@
 import styles from '../Resume/Resume2.module.css'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
-import DOI_logo from '../Icons/DOI'
+import DOI_LOGO from '../Icons/DOI'
 import { amandaResume } from '../../pdf/exports'
+// import { url } from 'express'
+// import DOI_logo from '../../assets/images/exports'
 
 const Resume2 = () => {
 
@@ -19,26 +21,26 @@ const Resume2 = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="2011 - present"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<DOI_logo />}
+            date="August 2022 - November 2022"
+            iconStyle={{ color: '#fff' }}
+            icon={<DOI_LOGO />}
           >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h3 className="vertical-timeline-element-title">General Assembly, NYC</h3>
+          <h4 className="vertical-timeline-element-subtitle">Software Engineering Fellow</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+            
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date=""
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           // icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+          <h3 className="vertical-timeline-element-title">Career Sabbatical</h3>
+          <h4 className="vertical-timeline-element-subtitle">Appalachian Trail</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+            Backpacked 600 continuous miles of the Appalachian Trail from Georgia to Virginia
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
