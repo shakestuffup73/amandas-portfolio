@@ -133,10 +133,15 @@ p {
     content: '';
     position: absolute;
     height: 100%;
-    width: 1px;
-    background-color: darkcyan;
+    width: 2px;
     left: 50%;
+    border: 10px dashed #a84444;
     transform: translateX(-50%);
+      --mask:
+        radial-gradient(75.15px at calc(100% + 66.50px) 50%,#0000 calc(99% - 0px),#000 calc(101% - 0px) 99%,#0000 101%) calc(50% - 17.5px + .5px) calc(50% - 70px)/ 35px 140px  repeat-y,
+        radial-gradient(75.15px at -66.5px 50%,#0000 calc(99% - 0px),#000 calc(101% - 0px) 99%,#0000 101%) calc(50% + 17.5px) 50%/35px 140px  repeat-y;
+      -webkit-mask: var(--mask);
+              mask: var(--mask);
   }
 
   .timeline ul {
@@ -148,40 +153,39 @@ p {
     width: 50%;
     margin-bottom: 30px;
     position: relative;
-    margin-left: -33px;
-    margin-right: 0px;
+    margin-left: -35px;
+    margin-right: 10px;
     margin-bottom: 20px;
   }
 
   .timeline ul li:nth-child(odd){
     float: left;
     clear: right;
-    transform: translateX(-40px); 
+    transform: translateX(-50px); 
   }
 
   .timeline ul li:nth-child(even){
     float: right;
     clear: left;
-    transform: translateX(31px);
+    transform: translateX(41px);
   }
 
   .timeline ul li::after {
-    content: '';
+    content: url('../../assets/images/map.png');
+    color: #a84444;
     position: absolute;
-    height: 10px;
-    width: 10px;
-    background-color: #a84444;
-    border-radius: 50%;
+    height: 5px;
+    width: 5px;
     top: 0;
-
   }
+
   .timeline ul li:nth-child(odd)::after{
     transform: translate(50%, -50%);
-    right: -10px;
+    right: -33px;
   }
   .timeline ul li:nth-child(even)::after{
     transform: translate(-50%, -50%);
-    left: -10px;
+    left: -60px;
   }
 }
 

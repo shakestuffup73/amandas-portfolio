@@ -33,7 +33,7 @@
   max-width: 600px;
   margin-top: 10px;
   padding: 20px;
-  background-color: whitesmoke;
+  background-color: #707479;
   min-height: fit-content;
   margin-bottom: 20px;
 }
@@ -63,7 +63,7 @@
   padding: 6px;
   background-color: #181819;
   border: 2px solid darkcyan;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .one {

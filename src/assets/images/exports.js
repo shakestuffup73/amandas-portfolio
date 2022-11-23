@@ -45,6 +45,7 @@ import postman from './postman.svg'
 import python2 from './python2.svg'
 import react from './react.svg'
 import visualstudiocode from './visualstudiocode.svg'
+import map from './map.png'
 // import { json } from 'react-router-dom'
 // import { mongo } from 'mongoose'
 
@@ -253,6 +254,11 @@ const visualstudiocode_svg = {
   altText: 'VSCode logo'
 }
 
+const map_icon = {
+  src: map,
+  altText: 'Map icon'
+}
+
 export {
   aboutMeLogo,
   AmandaDevProjLogo,
@@ -299,5 +305,6 @@ export {
   postman_svg,
   python2_svg,
   react_svg,
-  visualstudiocode_svg
+  visualstudiocode_svg,
+  map_icon,
 }

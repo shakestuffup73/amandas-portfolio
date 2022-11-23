@@ -2,8 +2,6 @@ import projects from '../../data/projects.js'
 import styles from '../Projects/Projects.module.css'
 import ProjectCard from './ProjectCard.jsx'
 import { 
-  langs_icons, 
-  python_icon, 
   adobeillustrator_svg, 
   adobelightroom_svg,
   adobephotoshop_svg,
@@ -44,10 +42,6 @@ const Projects = () => {
       <div className={styles.gridContainer2}>
         <div className={styles.techStack} id="tech">
             <h1>Tech Stack/Projects</h1>
-          {/* <div className={styles.languages}>
-            <img src={langs_icons.src} alt={langs_icons.altText} className={styles.langImgs}/>
-            <img src={python_icon.src} alt={python_icon.altText} className={styles.pythonImg}/>
-          </div> */}
           <div className={styles.languages2}>
             <img src={html5_svg.src} alt={html5_svg.altText} className={styles.svg} />
             <img src={javascript_svg.src} alt={javascript_svg.altText} className={styles.svg} />
