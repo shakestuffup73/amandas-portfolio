@@ -19,6 +19,34 @@ import langs from './langs.png'
 import python from './python.png'
 import lamdb from './lamdb.png'
 import Self8 from './Self8.jpg'
+import adobefonts from './adobefonts.svg'
+import adobeillustrator from './adobeillustrator.svg'
+import adobelightroom from './adobelightroom.svg'
+import adobephotoshop from './adobephotoshop.svg'
+import bootstrap2 from './bootstrap2.svg'
+import css3 from './css3.svg'
+import django from './django.svg'
+import docker from './docker.svg'
+import dotenv from './dotenv.svg'
+import express from './express.svg'
+import heroku from './heroku.svg'
+import html5 from './html5.svg'
+import javascript from './javascript.svg'
+import jsonwebtokens from './jsonwebtokens.svg'
+import microsoftazure from './microsoftazure.svg'
+import mongodb from './mongodb.svg'
+import mui from './mui.svg'
+import netlify from './netlify.svg'
+import nodedotjs from './nodedotjs.svg'
+import nodemon from './nodemon.svg'
+import npm from './npm.svg'
+import postgresql from './postgresql.svg'
+import postman from './postman.svg'
+import python2 from './python2.svg'
+import react from './react.svg'
+import visualstudiocode from './visualstudiocode.svg'
+// import { json } from 'react-router-dom'
+// import { mongo } from 'mongoose'
 
 const aboutMeLogo = { 
   src: AmandaAboutMeLogo,
@@ -95,6 +123,136 @@ const Self8_image = {
   altText: 'Amanda in red sweater and glasses smiling'
 }
 
+const adobefonts_svg = {
+  src: adobefonts,
+  altText: 'Adobe Fonts logo'
+}
+
+const adobeillustrator_svg = {
+  src: adobeillustrator,
+  altText: 'Adobe Illustrator logo'
+}
+
+const adobelightroom_svg = {
+  src: adobelightroom,
+  altText: 'Adobe Lightroom logo'
+}
+
+const adobephotoshop_svg = {
+  src: adobephotoshop,
+  altText: 'Adobe Photoshop logo'
+}
+
+const bootstrap2_svg = {
+  src: bootstrap2,
+  altText: 'Bootstrap logo'
+}
+
+const css3_svg = {
+  src: css3,
+  altText: 'CSS3 logo'
+}
+
+const django_svg = {
+  src: django,
+  altText: 'Django logo'
+}
+
+const docker_svg = {
+  src: docker,
+  altText: 'Docker logo'
+}
+
+const dotenv_svg = {
+  src: dotenv,
+  altText: 'Dotenv logo'
+}
+
+const express_svg = {
+  src: express,
+  altText: 'Express logo'
+}
+
+const heroku_svg = {
+  src: heroku,
+  altText: 'Heroku logo'
+}
+
+const html5_svg = {
+  src: html5,
+  altText: 'HTML5 logo'
+}
+
+const javascript_svg = {
+  src: javascript,
+  altText: 'Javascript logo'
+}
+
+const jsonwebtokens_svg = {
+  src: jsonwebtokens,
+  altText: 'JSON Web Token logo'
+}
+
+const microsoftazure_svg = {
+  src: microsoftazure,
+  altText: 'Microsoft Azure logo'
+}
+
+const mongodb_svg = {
+  src: mongodb,
+  altText: 'MongoDB logo'
+}
+
+const mui_svg = {
+  src: mui,
+  altText: 'MUI Logo'
+}
+
+const netlify_svg = {
+  src: netlify,
+  altText: 'Netlify logo'
+}
+
+const nodedotjs_svg = {
+  src: nodedotjs,
+  altText: 'Node.js logo'
+}
+
+const nodemon_svg = {
+  src: nodemon,
+  altText: 'Nodemon logo'
+}
+
+const npm_svg = {
+  src: npm,
+  altText: 'NPM logo'
+}
+
+const postgresql_svg = {
+  src: postgresql,
+  altText: 'PostgresSQL logo'
+}
+
+const postman_svg = {
+  src: postman,
+  altText: 'Postman logo'
+}
+
+const python2_svg = {
+  src: python2,
+  altText: 'Python logo'
+}
+
+const react_svg = {
+  src: react,
+  altText: 'React logo'
+}
+
+const visualstudiocode_svg = {
+  src: visualstudiocode,
+  altText: 'VSCode logo'
+}
+
 export {
   aboutMeLogo,
   AmandaDevProjLogo,
@@ -116,4 +274,30 @@ export {
   python_icon,
   lamdb_screenshot,
   Self8_image,
+  adobefonts_svg,
+  adobeillustrator_svg,
+  adobelightroom_svg,
+  adobephotoshop_svg,
+  bootstrap2_svg,
+  css3_svg,
+  django_svg,
+  docker_svg,
+  dotenv_svg,
+  express_svg,
+  heroku_svg,
+  html5_svg,
+  javascript_svg,
+  jsonwebtokens_svg,
+  microsoftazure_svg,
+  mongodb_svg,
+  mui_svg,
+  netlify_svg,
+  nodedotjs_svg,
+  nodemon_svg,
+  npm_svg,
+  postgresql_svg,
+  postman_svg,
+  python2_svg,
+  react_svg,
+  visualstudiocode_svg
 }

@@ -1,3 +1,4 @@
+
 .projImg {
   border: 4px solid darkcyan;
   max-width: 500px;
@@ -107,13 +108,20 @@
 }
 
 .languages2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: flex-start;
   align-items: center;
+  flex-wrap: nowrap;
   background-color: whitesmoke;
   width: 80%;
   padding: 20px;
+}
+
+.svg {
+  height: 4vh;
+  fill:#a84444;
+  margin: 5px;
 }
 
 .langImgs {
