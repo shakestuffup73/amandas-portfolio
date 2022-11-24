@@ -9,7 +9,6 @@ import aperture from './aperture.png'
 import github_white from './github_white.png'
 import linkedin_cyan from './linkedin_cyan.png'
 import Self1 from './Self1.jpg'
-// import Self7 from './Self7.jpg'
 import Star from './Star.png'
 import amandalorian from './amandalorian.png'
 import rock from './rock.png'
@@ -45,10 +44,15 @@ import postman from './postman.svg'
 import python2 from './python2.svg'
 import react from './react.svg'
 import visualstudiocode from './visualstudiocode.svg'
-import DOI from './DOI.svg'
 import ga from './ga.png'
-// import { json } from 'react-router-dom'
-// import { mongo } from 'mongoose'
+import AT from './AT.png'
+import DOI from './DOI.png'
+import OSU from './OSU.png'
+import CSN from './CSN.png'
+import OB from './OB.png'
+import NOLS from './NOLS.png'
+import AF from './AF.png'
+import Cornell from './Cornell.png'
 
 const aboutMeLogo = { 
   src: AmandaAboutMeLogo,
@@ -255,14 +259,49 @@ const visualstudiocode_svg = {
   altText: 'VSCode logo'
 }
 
-const DOI_logo = {
-  src: DOI,
-  altText: 'DOI Logo for job experience'
-}
-
 const ga_logo = {
   src: ga,
   altText: 'General Assembly logo'
+}
+
+const AT_logo = {
+  src: AT,
+  altText: 'Appalachian Trail logo'
+}
+
+const DOI_logo = {
+  src: DOI,
+  altText: 'Department of the Interior logo'
+}
+
+const OSU_logo = {
+  src: OSU,
+  altText: 'Oregon State University logo'
+}
+
+const CSN_logo = {
+  src: CSN,
+  altText: 'College of Southern Nevada logo'
+}
+
+const OB_logo = {
+  src: OB,
+  altText: 'Outward Bound logo'
+}
+
+const NOLS_logo = {
+  src: NOLS,
+  altText: 'NOLS logo'
+}
+
+const AF_logo = {
+  src: AF,
+  altText: 'US Air Force emblem'
+}
+
+const Cornell_logo = {
+  src: Cornell,
+  altText: 'Cornell University logo'
 }
 
 export {
@@ -312,6 +351,13 @@ export {
   python2_svg,
   react_svg,
   visualstudiocode_svg,
-  DOI_logo,
   ga_logo,
+  AT_logo,
+  DOI_logo,
+  OSU_logo,
+  CSN_logo,
+  OB_logo,
+  NOLS_logo,
+  AF_logo,
+  Cornell_logo
 }

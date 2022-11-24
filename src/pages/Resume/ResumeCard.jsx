@@ -21,11 +21,13 @@ const ResumeCard = ({experience}) => {
       <h3 className="vertical-timeline-element-title">{experience.title}</h3>
       <h4 className="vertical-timeline-element-subtitle">{experience.role}</h4>
       <p>
-      &#10023; {experience.description}
+      {experience.description}
       <br />
-      &#10023; {experience.details}
+      {experience.details}
       <br />
-      &#10023; {experience.info}
+      {experience.info}
+      <br />
+      {experience.details2}
       </p>
     </VerticalTimelineElement>
   );
