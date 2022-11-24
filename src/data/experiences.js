@@ -3,7 +3,10 @@ import { ga_logo } from "../assets/images/exports"
 const experiences = [
   {
     title: "General Assembly",
-    info: "First software development project from GA's Software Engineering Immersive Bootcamp - an interactive tic-tac-toe game with music and flashing light effects for the win!",
+    role: "Software Engineering Fellow",
+    description: "3-month full-time Software Engineering Immersive Bootcamp",
+    details: "Developed projects utilizing Javascript, HTML, CSS, Python, Express, React, Django, Mongoose, MongoDB, PostgreSQL, SQL, and Docker",
+    info: "Projects and descriptions found on Portfolio and GitHub",
     image: ga_logo,
     date: "August 2022 - November 2022",
     altText: "General Assembly Software Engineering resume experience" 
