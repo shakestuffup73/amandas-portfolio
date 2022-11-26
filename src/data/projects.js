@@ -1,4 +1,10 @@
-import { amandalorian_screenshot, rock_screenshot, tictaccatjam_screenshot, rockcollector_screenshot, lamdb_screenshot } from "../assets/images/exports"
+import { 
+  amandalorian_screenshot, 
+  rock_screenshot, 
+  tictaccatjam_screenshot, 
+  rockcollector_screenshot, 
+  lamdb_screenshot,
+} from "../assets/images/exports"
 
 
 const projects = [
