@@ -39,6 +39,7 @@ const Projects = () => {
   }
 
   return (
+    <div className={styles.gridContainer3}>
       <div className={styles.gridContainer2}>
         <div className={styles.techStack} id="tech">
             <h1>Tech Stack/Projects</h1>
@@ -77,6 +78,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+    </div>
   )
 }
 

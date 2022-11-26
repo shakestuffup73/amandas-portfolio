@@ -4,6 +4,7 @@ p {
 
 iframe {
   margin: 6px;
+  width: 90%;
 }
 
 .headshot {
@@ -25,11 +26,11 @@ iframe {
   padding: 6px;
   background-color: #181819;
   margin: 10px;
-  /* border: 2px solid darkcyan; */
 }
 
 .one {
   display: flex;
+  width: 85%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: right;

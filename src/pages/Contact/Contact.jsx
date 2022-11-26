@@ -34,16 +34,16 @@ const Contact = () => {
 
   return (
     <>
-    <form ref={form} onSubmit={sendEmail} id="contact">
+      <form ref={form} onSubmit={sendEmail} id="contact">
       <h1 className={styles.contact}>Contact Me</h1>
-      <label>Name:</label>
-        <input type="text" name="user_name" placeholder='Name...'/>
-      <label>Email:</label>
-        <input type="email" name="user_email" placeholder="Email..."/>
-      <label>Message:</label>
-        <textarea name="message" placeholder="Message..."/>
-      <button type="submit">Send Message</button>
-    </form>
+        <label>Name:</label>
+          <input type="text" name="user_name" placeholder='Name...'/>
+        <label>Email:</label>
+          <input type="email" name="user_email" placeholder="Email..."/>
+        <label>Message:</label>
+          <textarea name="message" placeholder="Message..."/>
+        <button type="submit">Send Message</button>
+      </form>
     </>
   );
 };

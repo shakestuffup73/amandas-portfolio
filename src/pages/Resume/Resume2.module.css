@@ -13,18 +13,13 @@ h2 {
 }
 
 h3 {
-  color: whitesmoke;
-  line-height: 1.1em;
-  font-size: .8em;
+  color: #181819;
+  line-height: 2em;
   font-family: costa, sans-serif;
-  font-weight: bolder;
-  font-style: normal;
 }
 
 p {
   font-family: costa, sans-serif;
-  font-weight: 300;
-  font-style: normal;
 }
 
 .icons {
@@ -41,54 +36,43 @@ p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
-  padding: 6px;
   background-color: #181819;
-  /* border: 2px solid darkcyan; */
   z-index: -1;
 }
 
-.one {
-  text-align: justify;
+.one1 {
+  text-align: left;
   background-color: #181819;
-  margin: 6px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   z-index: -1;
-  width: 98%;
+  width: 100%;
 }
 
 .resume {
   width: 100%;
-  margin-top: 14px;
-  margin-bottom: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 50px;
 }
 
 .resume > a {
   background-color: darkcyan;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  padding: 20px;
-  height: 10px;
+  padding: 15px;
+  height: 15px;
   width: 180px;
   margin-bottom: 20px;
   align-items: center;
   justify-content: center;
   font-size: 1.1em;
+  font-family: costa, sans-serif;
 }
 
 .resume > a:hover {
   box-shadow: #a84444 0px 10px 40px -10px, #a84444 0px 10px 10px -10px,#a84444 0px -2px 6px 0px inset;
   border: 1px solid #a84444;
-}
-
-@media only screen and (min-width: 768px) {
-
-  
 }
 

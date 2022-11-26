@@ -21,6 +21,8 @@
   background-color: whitesmoke;
   min-height: fit-content;
   margin-bottom: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  z-index: -1;
 }
 
 .gridContainer2 {
@@ -28,7 +30,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 80%;
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -38,13 +40,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 6px;
   background-color: #181819;
-  border: 1px solid darkcyan;
-  font-size: 1.2em;
+  z-index: -1;
 }
 
 .one {
@@ -54,6 +54,7 @@
   padding: 6px;
   padding-bottom: 6px;
   height: 24vh;
+  z-index: -1;
 }
 
 .one > img {
@@ -69,9 +70,10 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   color: whitesmoke;
   font-size: medium;
-  font-family: luminance, serif;
+  font-family: costa, sans-serif;
   width: 60px;
-  transform: translateX(45px) translateY(10px);
+  transform: translateY(17px);
+  z-index: -1;
 }
 
 .detailsBtn:hover {
@@ -89,6 +91,7 @@
   background-color: whitesmoke;
   width: 100%;
   padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .svg {
@@ -128,6 +131,7 @@
   width: 55%;
   padding: 4px;
   margin-top: 20px;
+  font-family: costa, sans-serif;
 }
 
 .linkDiv:hover {
