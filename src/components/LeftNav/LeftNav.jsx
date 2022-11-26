@@ -41,6 +41,15 @@ const LeftNav = () => {
   return (
     <>
       <header>
+        <div id="lottie-div">
+          <Lottie
+            loop
+            animationData={arrow}
+            play
+            style={{ width: 30 }}
+            onClick={handleToggle}
+            />
+        </div>
         <nav className={`menuNav ${navbarOpen ? "" : "showMenu"}`}>
           <HashLink to='/#tech'>Projects</HashLink>
           <HashLink to='/#resume'>Resume</HashLink>
@@ -54,15 +63,6 @@ const LeftNav = () => {
             <LeftNavLink key={JSON.stringify(link)} data={link}/>
           ))
         }
-      </div>
-      <div id="lottie-div">
-      <Lottie
-        loop
-        animationData={arrow}
-        play
-        style={{ width: 60 }}
-        onClick={handleToggle}
-        />
       </div>
     </>
   );
