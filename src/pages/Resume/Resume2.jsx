@@ -15,7 +15,12 @@ const Resume2 = () => {
     <div className={styles.gridContainer}>
       <h1>Professional Timeline</h1>
       <div className={styles.one1}>
-        <VerticalTimeline>
+        <VerticalTimeline 
+          className={styles.vertTimeline} 
+          layout="2-columns" 
+          lineColor="darkcyan"
+          position="left"
+        >
           {experiences?.map(experience =>
             <ResumeCard key={JSON.stringify(experience)} experience={experience} />
           )}

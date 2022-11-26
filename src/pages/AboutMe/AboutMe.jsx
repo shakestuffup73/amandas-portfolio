@@ -10,7 +10,9 @@ const AboutMe = () => {
       <div className={styles.one}>
         <p>
         <img src={Self8_image.src} alt={Self8_image.alt} className={styles.headshot} />
-        As a Software Engineer, I utilize best practices to create applications and products to meet a variety of business and user needs. I've spent my professional career working project management for software development programs in the Air Force and as a Park Ranger in the Bureau of Land Management, where I worked wildland fire response and collected field data for integration into SQL databases. From these experiences I was inspired to pursue Software Development full-time and made the career-switch by attending an immersive Software Engineering bootcamp through General Assembly.
+        Software Engineer. Wilderness-Wanderer. Photographer. Loyal human to my beloved dog, Libby.
+        <br></br><br></br>
+        My professional career started with working project management for software development programs in the Air Force. Upon leaving the military, I went on to work outdoor education and became a Park Ranger in the Bureau of Land Management. As a Ranger I worked wildland fire response and collected field data for integration into SQL databases. After a long walk in the woods, I decided to pursue Software Development full-time and made the career-switch by attending an immersive Software Engineering bootcamp through General Assembly.
         <br></br>
         <br></br>
         After spending almost a decade exploring the states, I've returned to my New England roots. I now spend my free time wandering the woods with my dog, perusing bookshop shelves for hours, staring at the sky and any body of water I happen upon, people-watching under the guise of drinking coffee, and obsessively listening to the music that puts words to my emotions. I'm a non-commital professional Photographer and appreciate all forms of artistic expression.

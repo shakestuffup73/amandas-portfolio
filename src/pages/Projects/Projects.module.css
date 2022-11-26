@@ -22,7 +22,6 @@
   min-height: fit-content;
   margin-bottom: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  z-index: -1;
 }
 
 .gridContainer2 {
@@ -30,7 +29,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -44,7 +43,6 @@
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #181819;
-  z-index: -1;
 }
 
 .one {
@@ -53,12 +51,11 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 6px;
   padding-bottom: 6px;
-  height: 24vh;
-  z-index: -1;
+  height: 35vh;
 }
 
 .one > img {
-  height: 10vh;
+  height: 20vh;
 }
 
 .one > h2 {
@@ -73,7 +70,6 @@
   font-family: costa, sans-serif;
   width: 60px;
   transform: translateY(17px);
-  z-index: -1;
 }
 
 .detailsBtn:hover {
@@ -90,7 +86,7 @@
   flex-wrap: nowrap;
   background-color: whitesmoke;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
@@ -98,15 +94,6 @@
   height: 4vh;
   fill:#a84444;
   margin: 5px;
-}
-
-.langImgs {
-  width: 220px;
-}
-
-.pythonImg {
-  width: 80px;
-  margin-left: -35px;
 }
 
 .detailsDiv {
@@ -130,7 +117,7 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   width: 55%;
   padding: 4px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: costa, sans-serif;
 }
 
@@ -156,13 +143,18 @@
     font-size: 1.2em;
   }
   .gridContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 90%;
-    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 25vh;
   }
-  .languages, .languages2 {
-    width: 90%;
-    max-width: 900px;
+  .languages2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
   }
 }
