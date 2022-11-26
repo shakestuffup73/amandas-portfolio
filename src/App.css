@@ -1,4 +1,3 @@
-
 header {
   width: 100%;
   height: 50px;
@@ -36,11 +35,11 @@ a:hover {
 }
 
 .menuNav.showMenu > img {
-  width: 35px;
+  width: 25px;
 }
 
 #linkedin-icon, #github-icon, #camera-icon {
-  height: 3.5vh;
+  height: 2.8vh;
   margin-left: 5px;
 }
 
@@ -65,9 +64,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  min-height: 40vh;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 20px;
   position: fixed;
   left: 0;
   top: 0;
