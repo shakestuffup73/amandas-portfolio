@@ -40,71 +40,23 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  margin-left: 50px;
+  width: 85%;
+  margin-left: 60px;
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding: 6px;
   background-color: #181819;
-  border: 2px solid darkcyan;
+  /* border: 2px solid darkcyan; */
   z-index: -1;
 }
 
 .one {
   text-align: justify;
-  background-color: whitesmoke;
+  background-color: #181819;
   margin: 6px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   z-index: -1;
   width: 98%;
-}
-
-.timeline {
-  height: auto;
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  content: '';
-  left: 1%;
-  z-index: -1;
-}
-
-.timelineContent {
-  min-width: 120px;
-  z-index: -1;
-  color: #181819;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  z-index: -1;
-}
-
-.timeline ul {
-  list-style: none;
-  width: 82%;
-  margin: 0 auto;
-}
-
-.timeline ul li {
-  background-color: whitesmoke;
-  padding: 20px;
-  color: whitesmoke;
-  margin-bottom: 15px;
-  margin-left: -46px;
-  width: 100%;
-  z-index: -1000;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.timelineContent h1 {
-  font-size: 1em;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
-.timelineContent p {
-  font-size: .8em;
-  font-weight: 300;
 }
 
 .resume {
@@ -137,63 +89,6 @@ p {
 
 @media only screen and (min-width: 768px) {
 
-  .timeline::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 2px;
-    left: 50%;
-    border: 10px dashed #a84444;
-    transform: translateX(-50%);
-      --mask:
-        radial-gradient(75.15px at calc(100% + 66.50px) 50%,#0000 calc(99% - 0px),#000 calc(101% - 0px) 99%,#0000 101%) calc(50% - 17.5px + .5px) calc(50% - 70px)/ 35px 140px  repeat-y,
-        radial-gradient(75.15px at -66.5px 50%,#0000 calc(99% - 0px),#000 calc(101% - 0px) 99%,#0000 101%) calc(50% + 17.5px) 50%/35px 140px  repeat-y;
-      -webkit-mask: var(--mask);
-              mask: var(--mask);
-  }
-
-  .timeline ul {
-    min-width: 400px;
-    margin-bottom: 20px;
-  }
-
-  .timeline ul li {
-    width: 50%;
-    margin-bottom: 30px;
-    position: relative;
-    margin-left: -35px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-  }
-
-  .timeline ul li:nth-child(odd){
-    float: left;
-    clear: right;
-    transform: translateX(-50px); 
-  }
-
-  .timeline ul li:nth-child(even){
-    float: right;
-    clear: left;
-    transform: translateX(41px);
-  }
-
-  .timeline ul li::after {
-    content: url('../../assets/images/map.png');
-    color: #a84444;
-    position: absolute;
-    height: 5px;
-    width: 5px;
-    top: 0;
-  }
-
-  .timeline ul li:nth-child(odd)::after{
-    transform: translate(50%, -50%);
-    right: -33px;
-  }
-  .timeline ul li:nth-child(even)::after{
-    transform: translate(-50%, -50%);
-    left: -60px;
-  }
+  
 }
 

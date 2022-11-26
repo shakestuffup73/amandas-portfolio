@@ -2,14 +2,14 @@
 form {
   display: grid;
   grid-template-columns: 1fr;
-  border: 2px solid darkcyan;
+  /* border: 2px solid darkcyan; */
   padding: 10px;
-  width: 80%;
+  width: 85%;
   color:  whitesmoke;
   background-color: #181819;
   font-family: luminance, serif;
   font-size: 1.4em;
-  margin-left: 45px;
+  margin-left: 55px;
   margin-bottom: 100px;
 }
 
@@ -27,7 +27,7 @@ form > input, textarea, button {
 
 form > button {
   margin-top: 20px;
-  width: 35%;
+  width: 40%;
   background-color: darkcyan;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 4px;

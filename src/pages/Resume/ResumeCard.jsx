@@ -6,10 +6,10 @@ const ResumeCard = ({experience}) => {
   return ( 
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
-      contentStyle={{ background: '#181819', color: '#f2efee' }}
-      contentArrowStyle={{ borderRight: '7px solid  #181819' }}
+      contentStyle={{ background: 'whitesmoke', color: '#181819' }}
+      contentArrowStyle={{ borderRight: '7px solid whitesmoke' }}
       date={experience.date}
-      iconStyle={{ background: '#181819', color: '#fff' }}
+      iconStyle={{ background: '#181819', color: '#181819' }}
       icon={
         <img
         className={styles.icons} 

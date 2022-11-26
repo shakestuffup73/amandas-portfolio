@@ -7,7 +7,7 @@ iframe {
 }
 
 .headshot {
-  width: 45%;
+  width: 35%;
   border: 2px solid darkcyan;
   border-radius: 5%;
   float: right;
@@ -19,13 +19,12 @@ iframe {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 80%;
-  margin-left: 50px;
+  width: 95%;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding: 6px;
   background-color: #181819;
-  border: 2px solid darkcyan;
+  /* border: 2px solid darkcyan; */
 }
 
 .one {

@@ -42,7 +42,7 @@ const Contact = () => {
         <input type="email" name="user_email" placeholder="Email..."/>
       <label>Message:</label>
         <textarea name="message" placeholder="Message..."/>
-      <button type="submit">Send Email</button>
+      <button type="submit">Send Message</button>
     </form>
     </>
   );

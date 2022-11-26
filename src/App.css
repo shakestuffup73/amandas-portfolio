@@ -41,7 +41,7 @@ a:hover {
 
 #linkedin-icon, #github-icon, #camera-icon {
   height: 3.5vh;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 #brand-image {
@@ -50,15 +50,15 @@ a:hover {
 
 #icon-div {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  min-height: 40vh;
-  justify-content: space-between;
-  margin-left: 2px;
-  margin-top: 85px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
   position: fixed;
-  left: 0;
-  top: 1%;
+  width: 100%;
+  padding: 12px;
+  bottom: 0;
+  margin-bottom: 0px;
+  background: #181819;
 }
 
 #lottie-div {
@@ -67,9 +67,8 @@ a:hover {
   align-items: flex-start;
   min-height: 40vh;
   justify-content: space-between;
-  margin-right: -15px;
   margin-top: 60px;
   position: fixed;
   left: 0;
-  bottom: -26%;
+  top: 0;
 }
