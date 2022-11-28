@@ -14,7 +14,7 @@ const experiences = [
   {
     title: "Sabbatical",
     role: "Appalachian Trail",
-    description: "600 continuous miles over 4 months backpacking from Georgia to Virginia",
+    description: "Backpacked for 600 continuous miles over 4 mos. on the AT from Georgia to Virginia",
     image: AT_logo,
     date: "March 2022 - June 2022",
     altText: "Appalachian Trail experience" 

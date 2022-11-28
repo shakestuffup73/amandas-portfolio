@@ -34,8 +34,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  height: fit-content;
   background-color: #181819;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .one {
@@ -148,5 +151,14 @@
   .one > img {
     height: 18vh;
     width: 165px;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    height: fit-content;
+  }
+
+  .one {
+    height: 30vh;
   }
 }

@@ -16,7 +16,7 @@ const projects = [
     deploymentLink: "https://rock-collector.herokuapp.com/",
     languages: "HTML, CSS, Python",
     details: "Full-Featured Framework Application Built Utilizing Django and Docker",
-    tech: "Django, Docker"
+    tech: "Django, Docker, Python, HTML5, CSS"
   },
   {
     title: "Rock and Ice",
@@ -25,7 +25,8 @@ const projects = [
     respositoryLink: "https://github.com/shakestuffup73/appalachian-mtns/blob/main/README.md",
     deploymentLink: "https://appalachian-mtns.fly.dev/",
     languages: "EJS, CSS, Javascript",
-    details: "MERN Stack CRUD Application"  
+    details: "MEN Stack CRUD Application: MongoDB, Express, NodeJS, Javascript, HTML5, CSS3",
+    tech: "MEN Stack CRUD Application: MongoDB, Express, NodeJS, Javascript, HTML5, CSS3, GoogleOAuth"   
   },
   {
     title: "LAMdb",
@@ -33,7 +34,8 @@ const projects = [
     image: lamdb_screenshot,
     respositoryLink: "Front End: https://github.com/shakestuffup73/lamdb-frontend || Back End: https://github.com/shakestuffup73/lamdb-backend",
     deploymentLink: "https://lamdb.netlify.app/",
-    languages: "Front-end: Javascript, CSS, HTML, Back-end: Javascript", 
+    languages: "Front-end: Javascript, CSS, HTML, Back-end: Javascript",
+    tech: "MERN Stack CRUD Application: MongoDB, Express, React,NodeJS, Javascript, HTML5, CSS3", 
   },
   {
     title: "Amandalorian",
@@ -42,7 +44,8 @@ const projects = [
     respositoryLink: "https://github.com/shakestuffup73/amandalorian/blob/main/ReadME.md",
     deploymentLink: "https://amandalorian.netlify.app/",
     languages: "HTML, CSS, Javascript",
-    details: "MEN Stack CRUD Application"  
+    details: "",
+    tech: "Javascript, HTML5, CSS3"  
   },
   {
     title: "Tic-Tac-CatJam",
@@ -51,7 +54,8 @@ const projects = [
     repositoryLink: "https://github.com/shakestuffup73/ttt-weekend/blob/main/README.md",
     deploymentLink: "https://tictaccatjam.fly.dev/",
     languages: "HTML, CSS, Javascript",
-    details: "Browser-based game"  
+    details: "Browser-based game",
+    tech: "Javascript, HTML5, CSS3"  
   },
 ]
 
