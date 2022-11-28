@@ -6,7 +6,7 @@ import {
 import LeftNavLink from './LeftNavLink'
 import { useState } from 'react'
 import { HashLink } from 'react-router-hash-link'
-import arrow from '../../assets/lotties/arrow.json'
+import compass from '../../assets/lotties/compass.json'
 import { star_icon } from '../../assets/images/exports'
 import Lottie from 'react-lottie-player'
 
@@ -44,9 +44,9 @@ const LeftNav = () => {
         <div id="lottie-div">
           <Lottie
             loop
-            animationData={arrow}
+            animationData={compass}
             play
-            style={{ width: 30 }}
+            style={{ width: 25, margin: 5 }}
             onClick={handleToggle}
           />
         </div>

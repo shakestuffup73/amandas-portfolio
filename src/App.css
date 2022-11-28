@@ -1,7 +1,5 @@
-
 header {
   width: 100%;
-  height: 50px;
 }
 
 a {
@@ -27,12 +25,12 @@ a:hover {
   justify-content: space-evenly;
   position: fixed;
   top: 0;
-  height: 30px;
+  height: 35px;
   width: 100%;
   list-style: none;
   background: #181819;
-  font-family: luminance, sans-serif;
-  font-size: 1.1em;
+  font-family: costa sans-serif;
+  font-size: 1em;
 }
 
 .menuNav.showMenu > img {
@@ -41,7 +39,7 @@ a:hover {
 
 #linkedin-icon, #github-icon, #camera-icon {
   height: 2.8vh;
-  margin-left: 5px;
+  margin-top: 10px;
 }
 
 #brand-image {
