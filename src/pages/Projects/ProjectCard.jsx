@@ -7,13 +7,12 @@ const ProjectCard = ({project}) => {
 
   return (
     <>
-      <h1>{ project.title }</h1>
       <div className={ styles.one }>
         <p>{ project.tech }</p>
-        <Link to={`/projects/${path}`}>
-          <button className={styles.detailsBtn}>Details</button>
-        </Link>
         <img src={ project.image.src } alt={ project.image.altText } className={ styles.projImg } />
+        <Link to={`/projects/${path}`}>
+          <button className={styles.detailsBtn}>{project.title}</button>
+        </Link>
       </div>
     </> 
   );
