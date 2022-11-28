@@ -8,7 +8,7 @@ const Intro = () => {
     <div className={ styles.introDiv }>
       <div className={styles.name}>
         <h1>AMANDA STERN</h1>
-        <h3>Software Engineer || Wilderness-Wanderer || Photographer || Loyal Human To My Dog</h3>
+        <h3>Software Engineer || Wilderness-Wanderer || Loyal Human To My Dog</h3>
         <Lottie
           loop
           animationData={dinosaur}
