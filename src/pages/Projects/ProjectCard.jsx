@@ -5,15 +5,17 @@ import { Link } from 'react-router-dom';
 const ProjectCard = ({project}) => {
   const path = hyphenateWords(project.title)
 
-  return ( 
-    <div className={ styles.one }>
+  return (
+    <>
       <h1>{ project.title }</h1>
-      <p>{ project.tech }</p>
-      <Link to={`/projects/${path}`}>
-        <button className={styles.detailsBtn}>Details</button>
-      </Link>
-      <img src={ project.image.src } alt={ project.image.altText } className={ styles.projImg } />
-    </div>
+      <div className={ styles.one }>
+        <p>{ project.tech }</p>
+        <Link to={`/projects/${path}`}>
+          <button className={styles.detailsBtn}>Details</button>
+        </Link>
+        <img src={ project.image.src } alt={ project.image.altText } className={ styles.projImg } />
+      </div>
+    </> 
   );
 }
 

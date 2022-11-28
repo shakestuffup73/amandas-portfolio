@@ -41,7 +41,7 @@ const Projects = () => {
   return (
     <div className={styles.gridContainer3}>
       <div className={styles.techStack} id="tech">
-          <h1>Tech Stack/Projects</h1>
+        <h1>Tech Stack/Projects</h1>
         <div className={styles.languages2}>
           <img src={html5_svg.src} alt={html5_svg.altText} className={styles.svg} />
           <img src={javascript_svg.src} alt={javascript_svg.altText} className={styles.svg} />

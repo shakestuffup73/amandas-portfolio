@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
-import styles from './Contact.modules.css'
+import styles from './Contact.module.css'
 
 const SERVICE_ID = process.env.REACT_APP_SERVICE_ID
 const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID

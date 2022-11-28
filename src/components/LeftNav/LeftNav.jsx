@@ -48,7 +48,7 @@ const LeftNav = () => {
             play
             style={{ width: 30 }}
             onClick={handleToggle}
-            />
+          />
         </div>
         <nav className={`menuNav ${navbarOpen ? "" : "showMenu"}`}>
           <HashLink to='/#tech'>Projects</HashLink>

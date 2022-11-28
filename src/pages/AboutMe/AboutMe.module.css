@@ -28,6 +28,10 @@ iframe {
   margin: 10px;
 }
 
+.gridContainer > h1 {
+  font-size: 1.4em;
+}
+
 .one {
   display: flex;
   width: 85%;

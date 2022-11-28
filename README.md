@@ -9,7 +9,7 @@ https://javascript.plainenglish.io/how-to-build-a-contact-form-in-react-that-sen
 - Vertical Timeline Element - component by Stephane Monet
 - https://stephane-monnot.github.io/react-vertical-timeline/#/
 
-
+- Lottie File "Dino Outpost" - Artist Patrick Flaherty
 
 # Getting Started with Create React App
 
