@@ -8,8 +8,9 @@ const ProjectCard = ({project}) => {
   return (
     <>
       <div className={ styles.one }>
-        <p>{ project.tech }</p>
         <img src={ project.image.src } alt={ project.image.altText } className={ styles.projImg } />
+        <h2>{project.tech}</h2>
+        <h2></h2>
         <Link to={`/projects/${path}`}>
           <button className={styles.detailsBtn}>{project.title}</button>
         </Link>

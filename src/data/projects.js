@@ -15,7 +15,8 @@ const projects = [
     respositoryLink: "https://github.com/shakestuffup73/rock-collector/blob/main/READme.md",
     deploymentLink: "https://rock-collector.herokuapp.com/",
     languages: "HTML, CSS, Python",
-    details: "Full-Featured Framework Application Built Utilizing Django and Docker"  
+    details: "Full-Featured Framework Application Built Utilizing Django and Docker",
+    tech: "Django, Docker"
   },
   {
     title: "Rock and Ice",
@@ -32,7 +33,7 @@ const projects = [
     image: lamdb_screenshot,
     respositoryLink: "Front End: https://github.com/shakestuffup73/lamdb-frontend || Back End: https://github.com/shakestuffup73/lamdb-backend",
     deploymentLink: "https://lamdb.netlify.app/",
-    languages: "Front-end: Javascript, CSS, HTML, Back-end: Javascript"  
+    languages: "Front-end: Javascript, CSS, HTML, Back-end: Javascript", 
   },
   {
     title: "Amandalorian",
