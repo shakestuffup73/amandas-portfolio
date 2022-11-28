@@ -39,5 +39,25 @@
 
 
 @media only screen and (min-width: 768px) {
-  
+
+  .name > h1 {
+    font-size: 3.8em;
+    text-shadow: -1px 1px whitesmoke;
+    color: #a84444;
+  }
+
+  .name > h3 {
+    color: whitesmoke;
+    margin-top: -125px;
+    font-size: .8em;
+  }
+
+  .name > h2 {
+    color: whitesmoke;
+    margin-top: 100px;
+  }
+
+  .dino {
+    margin-top: 12px;
+  }
 }

@@ -14,6 +14,7 @@ const Intro = () => {
           animationData={dinosaur}
           play
           style={{ width: 390 }}
+          className={styles.dino}
         />
         <h2>Explore My Portfolio</h2>
         <Lottie
