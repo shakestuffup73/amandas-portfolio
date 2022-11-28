@@ -18,7 +18,7 @@ const AboutMe = () => {
         After spending almost a decade exploring the states, I've returned to my New England roots. I now spend my free time wandering the woods with my dog, perusing bookshop shelves for hours, staring at the sky and any body of water I happen upon, people-watching under the guise of drinking coffee, and obsessively listening to the music that puts words to my emotions. I'm a non-commital professional Photographer and appreciate all forms of artistic expression.
         </p>
       </div>
-        <iframe src="https://open.spotify.com/embed/album/50ZenUP4O2Q5eCy2NRNvuz?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" alt="stickseasonalbum" title="noahkahan" id="album"></iframe>
+        <iframe src="https://open.spotify.com/embed/album/50ZenUP4O2Q5eCy2NRNvuz?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" loading="lazy" alt="stickseasonalbum" title="noahkahan" id="album"></iframe>
     </div>
   )
 }
