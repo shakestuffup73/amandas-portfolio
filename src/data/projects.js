@@ -13,7 +13,7 @@ const projects = [
     description: "Collect rocks, feed them lichen, moss and mushrooms, and give them pet frogs to keep them company.",
     image: rockcollector_screenshot,
     respositoryLink: "https://github.com/shakestuffup73/rock-collector/blob/main/READme.md",
-    deploymentLink: "https://rock-collector.herokuapp.com/",
+    deploymentLink: "https://web-production-3d7b.up.railway.app/",
     languages: "HTML, CSS, Python",
     details: "Full-Featured Framework Application Built Utilizing Django and Docker",
     tech: "Django, Docker, Python, HTML5, CSS"
