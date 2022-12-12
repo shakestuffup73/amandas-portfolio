@@ -29,10 +29,6 @@
   color: whitesmoke;
 }
 
-.name > h2:hover {
-  color: #a84444;
-}
-
 .name > h3 {
   color: whitesmoke;
   font-size: .3em;

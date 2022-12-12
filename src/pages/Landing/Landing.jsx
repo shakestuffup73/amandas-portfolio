@@ -7,6 +7,7 @@ import Contact from '../Contact/Contact'
 import Intro from '../Intro/Intro'
 
 const Landing = () => {
+
   return (
     <div className={styles.container}>
       <Intro />
