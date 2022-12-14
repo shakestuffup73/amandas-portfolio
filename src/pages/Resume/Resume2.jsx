@@ -17,7 +17,7 @@ const Resume2 = () => {
       <div className={styles.one1}>
         <VerticalTimeline 
           className={styles.vertTimeline} 
-          layout="2-columns" 
+          layout="1-column-left" 
           lineColor="darkcyan"
           position="left"
         >
