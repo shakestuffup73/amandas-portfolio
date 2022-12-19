@@ -1,20 +1,11 @@
-import AmandaAboutMeLogo from './AmandaAboutMeLogo.png'
-import AmandaDevProjLogo from './AmandaDevProjLogo.png'
-import AmandaLibby from './AmandaLibby.jpg'
-import AmandaProjectsLogo from './AmandaProjectsLogo.png'
-import AmandaResumeLogo from './AmandaResumeLogo.png'
-import AmandaRFLogo from './AmandaRFLogo.png'
 import camera from './camera.png'
-import aperture from './aperture.png'
 import github_white from './github_white.png'
 import linkedin_cyan from './linkedin_cyan.png'
-import Self1 from './Self1.jpg'
 import Star from './Star.png'
 import amandalorian from './amandalorian.png'
 import rock from './rock.png'
 import tictaccatjam from './tictaccatjam.png'
 import rockcollector from './rockcollector.png'
-import langs from './langs.png'
 import python from './python.png'
 import lamdb from './lamdb.png'
 import Self8 from './Self8.jpg'
@@ -54,11 +45,6 @@ import NOLS from './NOLS.png'
 import AF from './AF.png'
 import Cornell from './Cornell.png'
 
-const aboutMeLogo = { 
-  src: AmandaAboutMeLogo,
-  altText: 'about me in aperture'
-}
-
 const github_icon = {
   src: github_white,
   altText: 'white icon for github'
@@ -72,16 +58,6 @@ const linkedin_icon = {
 const camera_icon = {
   src: camera,
   altText: 'red camera icon for photography website'
-}
-
-const amandaRFLogo_icon = {
-  src: AmandaRFLogo,
-  altText: 'amanda name through camera aperture with RF quote'
-}
-
-const amandaLibby_desert = {
-  src: AmandaLibby,
-  altText: 'Amanda and Libby in front of a canyon wall'
 }
 
 const star_icon = {
@@ -107,11 +83,6 @@ const tictaccatjam_screenshot = {
 const rockcollector_screenshot = {
   src: rockcollector,
   altText: 'Screen shot of Rock Collector, featuring a pile of rocks and a frog in the dark woods'
-}
-
-const langs_icons = {
-  src: langs,
-  altText: 'Logos for HTML, CSS and JS'
 }
 
 const python_icon = {
@@ -305,23 +276,14 @@ const Cornell_logo = {
 }
 
 export {
-  aboutMeLogo,
-  AmandaDevProjLogo,
-  amandaLibby_desert,
-  AmandaProjectsLogo,
-  AmandaResumeLogo,
-  amandaRFLogo_icon,
-  aperture,
   camera_icon,
   github_icon,
   linkedin_icon,
-  Self1,
   star_icon,
   amandalorian_screenshot,
   rock_screenshot,
   tictaccatjam_screenshot,
   rockcollector_screenshot,
-  langs_icons,
   python_icon,
   lamdb_screenshot,
   Self8_image,
