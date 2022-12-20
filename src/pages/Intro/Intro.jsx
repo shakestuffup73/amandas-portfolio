@@ -1,15 +1,16 @@
 import styles from './Intro.module.css'
 import Lottie from 'react-lottie-player'
 import arrow from '../../assets/lotties/arrow.json'
+import 'animate.css'
 import dinosaur from '../../assets/lotties/dinosaur.json'
 // import { Suspense } from 'react' 
 
 const Intro = () => {
   return ( 
-    <div className={ styles.introDiv }>
+    <div className={styles.introDiv}>
       <div className={styles.name}>
-        <h1>AMANDA STERN</h1>
-        <h3>Software Engineer || Wilderness-Wanderer || Loyal Human To My Dog</h3>
+        <h1 class="animate__animated animate__fadeInDown">AMANDA STERN</h1>
+        <h3 class="animate__animated animate__fadeInDown">Software Engineer || Wilderness-Wanderer || Loyal Human To My Dog</h3>
         {/* <Suspense> */}
           <div>
           <Lottie
