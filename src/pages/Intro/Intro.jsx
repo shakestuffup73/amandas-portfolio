@@ -13,13 +13,13 @@ const Intro = () => {
         <h3 class="animate__animated animate__fadeInDown">Software Engineer || Wilderness-Wanderer || Loyal Human To My Dog</h3>
         {/* <Suspense> */}
           <div>
-          <Lottie
+          {/* <Lottie
             loop
             animationData={dinosaur}
             play
             style={{ width: 390 }}
             className={styles.dino}
-          />
+          /> */}
           </div>
         {/* </Suspense> */}
         <h2>Explore My Portfolio</h2>

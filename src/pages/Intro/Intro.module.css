@@ -25,8 +25,9 @@
 }
 
 .name > h2 {
-  font-size: 1em;
+  font-size: .8em;
   color: whitesmoke;
+  margin-top: 72px;
 }
 
 .name > h3 {
