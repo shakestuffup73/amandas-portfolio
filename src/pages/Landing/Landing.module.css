@@ -11,7 +11,7 @@ h1 {
   font-size: 1.4em;
   letter-spacing: .2ch;
   color:  #a84444;
-  text-shadow: 1px 1px  black;
+  text-shadow: 1px 1px  #181819;
 }
 
 h2 {
@@ -19,13 +19,13 @@ h2 {
   font-weight: 700;
   font-style: normal;
   font-size: 1.2em;
-  color: black;
+  color: #181819;
 }
 
 h3 {
   font-family: luminance, sans-serif;
   font-size: .6em;
-  color: black;
+  color: #181819;
 }
 
 div > img {

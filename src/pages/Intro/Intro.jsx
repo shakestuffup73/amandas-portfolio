@@ -2,8 +2,6 @@ import styles from './Intro.module.css'
 import Lottie from 'react-lottie-player'
 import arrow from '../../assets/lotties/arrow.json'
 import 'animate.css'
-// import dinosaur from '../../assets/lotties/dinosaur.json'
-// import { Suspense } from 'react' 
 
 const Intro = () => {
 
@@ -20,13 +18,6 @@ const Intro = () => {
           style={{ width: 30 }}
         />
       </div>
-        {/* <Lottie
-          loop
-          animationData={dinosaur}
-          play
-          style={{ width: 390 }}
-          className={styles.dino}
-        /> */}
     </div>
   );
 }

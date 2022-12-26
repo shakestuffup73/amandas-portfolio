@@ -9,7 +9,7 @@ const Projects = lazy(() => import ('../Projects/Projects'))
 const Landing = () => {
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="landing">
       <Intro />
       <AboutMe />
       <Projects />
