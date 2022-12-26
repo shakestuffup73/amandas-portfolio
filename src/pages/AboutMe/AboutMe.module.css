@@ -40,6 +40,36 @@ p {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+.jokeDiv {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.button {
+  background-color: darkcyan;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: whitesmoke;
+  font-size: medium;
+  font-family: costa, sans-serif;
+  width: 240px;
+  height: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button:hover {
+  box-shadow: #a84444 0px 10px 40px -10px, #a84444 0px 10px 10px -10px,#a84444 0px -2px 6px 0px inset;
+  border: 1px solid #a84444;
+  color: #a84444;
+}
+
+.jokeP {
+  font-family: costa, sans-serif;
+  color: whitesmoke;
+  font-size: 1em;
+  margin: 25px;
+}
+
 
 @media only screen and (min-width: 768px) {
   h1 {
