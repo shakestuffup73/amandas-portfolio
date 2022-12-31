@@ -41,7 +41,7 @@ const AboutMe = () => {
         </p>
       </div>
       <div className={styles.jokeDiv}>
-          <button onClick={getNewJoke} className={styles.button}>click for a bad dad-joke</button>
+          <button onClick={getNewJoke} className={styles.button}>click for a bad dad joke</button>
           <p className={styles.jokeP} id='joke'></p>
         <Lottie
           loop
