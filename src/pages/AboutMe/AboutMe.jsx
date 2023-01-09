@@ -43,13 +43,13 @@ const AboutMe = () => {
       <div className={styles.jokeDiv}>
           <button onClick={getNewJoke} className={styles.button}>click for a bad dad joke</button>
           <p className={styles.jokeP} id='joke'></p>
-        <Lottie
+        {/* <Lottie
           loop
           animationData={dinosaur}
           play
           style={{ width: 390 }}
           className={styles.dino}
-        />
+        /> */}
         </div>
     </div>
   )

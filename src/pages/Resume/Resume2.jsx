@@ -20,6 +20,8 @@ const Resume2 = () => {
           layout="1-column-left" 
           lineColor="darkcyan"
           position="left"
+          visible={true}
+          animate={false}
         >
           {experiences?.map(experience =>
             <ResumeCard key={JSON.stringify(experience)} experience={experience} />
