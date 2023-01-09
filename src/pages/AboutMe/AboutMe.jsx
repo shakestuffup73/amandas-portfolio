@@ -1,8 +1,8 @@
 import styles from '../AboutMe/AboutMe.module.css'
 import { Self8_image } from '../../assets/images/exports'
 import React from 'react'
-import Lottie from 'react-lottie-player'
-import dinosaur from '../../assets/lotties/dinosaur.json'
+// import Lottie from 'react-lottie-player'
+// import dinosaur from '../../assets/lotties/dinosaur.json'
 import axios from 'axios'
 
 const AboutMe = () => {
